@@ -1,0 +1,19 @@
+@charset "UTF-8";
+#otp03{width:100%; height:auto;}
+#otp03 .otp-text{}
+#otp03 .otp-text .text1{font-size:20px; font-weight:bold; margin-top:40px;}
+#otp03 .otp-text .text2{margin-top:30px;margin-left:25px;}
+
+.otp03-box{width:98%; height:190px; border:1px solid #ccc; border-radius:10px; margin-top:50px;}
+.otp03-box .box-text{margin-top:30px;margin-left:20px;font-size:17px;}
+.otp03-box .box-text2{}
+.otp03-box .box-text2 li{margin:30px; margin-left:38px;}
+.otp03-box .box-text2 li .box{width:180px; height:30px; outline:none; border:1px solid #ccc; padding-left:20px; margin-left:20px;}
+.otp03-box .box-text2 li #otp03-btn{width:60px; height:30px; background-color:#2f5597;color:#fff;border:none; outline:none; margin-left:10px;}
+
+.otp03-box2{width:98%; height:190px; border:1px solid #ccc; border-radius:10px; margin-top:50px;}
+.otp03-box2 .box-text{margin-top:30px;margin-left:20px;font-size:17px;}
+.otp03-box2 .box-text2{}
+.otp03-box2 .box-text2 li{margin:40px; margin-left:38px;}
+.otp03-box2 .box-text2 li .box{width:180px; height:30px; outline:none; border:1px solid #ccc; padding-left:20px; margin-left:20px;}
+.otp03-box2 .box-text2 li #otp03-btn02{width:80px; height:30px; background-color:#2f5597;color:#fff;border:none; outline:none; margin-left:10px;}

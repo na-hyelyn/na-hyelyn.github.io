@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="css/contents.css" />
+    <link href="css/coin_deposit,withdraw.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script> 
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script> 
+    <script type="text/javascript" src="plugin/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="plugin/jquery-ui/jquery-ui.css" />
+    <title>코인입출금,인증,내역</title>
+    <style>
+    ul.tabs {
+    border-left: 1px solid #eee;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:12px;
+}
+ul.tabs li {
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 33.3333%;
+    line-height: 67px;
+    border: 1px solid #eee;
+    border-left: none;
+    font-weight: bold;
+    font-size:28px;
+    background: #596c85;
+    overflow: hidden;
+    color:#fff;
+}
+ul.tabs li:nth-child(1){color:#000;}
+ul.tabs li.active {
+    background: #FFFFFF;
+    border-top:3px solid #fabe3d;
+    border-bottom: 1px solid #FFFFFF;
+}
+.tab_container {
+    
+    border-top: none;
+    clear: both;
+    margin:0 auto;
+    width: 100%;
+    background: #FFFFFF;
+}
+.tab_content {
+    padding: 50px;
+    font-size: 12px;
+    display: none;
+    background: #fff;
+}
+.tab_container .tab_content ul {
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+.tab_container .tab_content ul li {
+    padding:5px;
+    list-style:none;
+}
+
+ #container {
+    max-width:915px;
+    width: 100%;
+    margin: 0 auto;
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <ul class="tabs">
+            <li class="active" rel="tab1">코인입금</li>
+            <li rel="tab2">코인출금</li>
+            <li rel="tab3">내역</li>
+        </ul>
+        <div class="tab_container">
+            <!--코인입금-->
+            <div id="tab1" class="tab_content">
+                <div id="coin_deposit" class="tab_content1">
+                    <div class="d_top">
+                        <h1 class="d_guide">안내</h1>
+                    </div>
+                    
+                    <ul class="d_guide_text">
+                        <li>- 아래 주소로 코인을 입금해주세요.</li>
+                        <li>- 신규회원은 지갑생성 버튼을 클릭하면 코인주소가 발급됩니다.</li>
+                    </ul>
+                </div>
+                    
+                <div id="d_middle">
+                    <div class="area1">
+                        <div class="address_btn">
+                            <p class="address">입금주소</p>
+                            <button type="submit" id="d_btn" onclick="copy_to_clipboard()">클립보드로 주소 복사</button>
+                        </div>
+                        <input type="address" id="d_gray_box" tabindex="4" value="http://nahyelyn.dothome.co.kr/" readonly>
+                    </div>
+                    <div id="img-box">
+                        <input type="image" id="qr_box" src="assets/images/qr.png">
+                    </div>
+                    <h1 class="qr_text">입금주소 QR코드</h1>
+                </div>
+            </div>   
+        </div>
+        <!--코인출금-->
+        <div id="tab2" class="tab_content">
+            <div id="coin_withdraw" class="tab_content2" >
+                <div class="w_top">
+                    <div class="w_title">
+                        <p class="left_text"><span class="w_orange">BTC</span>&nbsp;&nbsp;&nbsp;출금신청</p>
+                        <p class="right_text">회원등급 &nbsp;&nbsp;<span class="w_red">Lv. 2</span></p>
+                    </div>
+                </div>
+                <div id="w_main">
+                    <div class="w_gray_box">
+                        <table border="0">
+                            <caption>코인출금</caption>
+                            
+                            <tr>
+                                <th>잔고</th>
+                                <td>0.06525704</td>
+                            </tr>
+                            <tr>
+                                <th>출금가능</th>
+                                <td>0.06525704</td>
+                            </tr>
+                            <tr>
+                                <th>최소 출금 가능</th>
+                                <td>0.00300000</td>
+                            </tr>
+                            <tr>
+                                <th>1회 출금 한도</th>
+                                <td>1,000,000</td>
+                            </tr>
+                            <tr>
+                                <th>1일 출금 한도</th>
+                                <td>1,000,000</td>
+                            </tr>
+                            <tr>
+                                <th>수수료</th>
+                                <td>0.00300000</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="input_area">
+                        <div class="btc">
+                            <span class="w_orange">BTC</span>
+                            <input type="number" id="w_number_box" placeholder="0.0" min="0" step="0.0001" oninput="convertBTCtoKRW()">
+                        </div>
+                        <div class="krw">
+                            <span class="w_black">KRW</span>
+                            <!--<input type="number" id="w_number_box2">-->
+                            <p type="number" id="w_number_box2"></p>
+                        </div>
+                    </div>
+                    <div class="btn_area">
+                        <button type="button" id="w_blue_btn" onclick="btnClick()" >다음</button>  
+                    </div>
+                </div>
+                <div class="w_bottom">
+                    <h1 class="w_guide">한국블록체인거래소 출금정책</h1>
+                    <ul class="w_bottom_guide">
+                        <li class="w_bottom_text">1. 가입 후 첫 출금신청 시 일정금액이상 출금신청 할경우, 출금지연이 적용 됩니다.</li>
+                        <li class="w_bottom_text2">2. 첫 번째 출금신청 이후에도 일정금액이상 충전 후 출금신청하실 경우 추가로 출금지연 될 수 있으며, 세번째까지 출금지연될 수 있습니다.</li>
+                    </ul>
+                </div>
+            </div>
+            <!--코인인증-->
+            <div id="coin_certification" style="display: none;">
+                <div class="c_top" class="tab_content3">
+                    <div class=c_top_text><span class="c_red">BTC</span>&nbsp;&nbsp;&nbsp;상대 입금주소</div>
+                        <form action="coin_deposit,withdraw,history.html">
+                            <input type="text" id="c_btc_box">
+                            <input type="reset" id="c_reset_btn" value=".">
+                            <ul id="c_box_text">
+                                <li><button id="copy_btn" button type="button" onclick="copy_to_clipboard2()">출금주소 저장</button></li>
+                                <!--<li><button class="c_gray_btn" id="past_btn" onclick="pasteboard()" button type="button">입금주소 붙여넣기</button></li>-->
+                                <!--<li><button class="c_gray_btn">QR코드</button></li>-->
+                            </ul>
+                        </form>
+                        
+                </div>
+                <div id="c_main">
+                    <input type="tel" id="phone" placeholder="010-0000-0000" onkeydown='return onlyNumber(event)' onkeyup='removeChar(event)' step="0.1"onkeypress='numberPoint(this)'>
+                    <button id="c_blue_box" onclick="takeTarget()">인증요청</button>
+                    <div class="time_box">
+                        <input type="text" id="c_gray_box2" maxlength="6" placeholder="123456" onkeydown='return onlyNumber(event)' onkeyup='removeChar(event)' step="0.1"onkeypress='numberPoint(this)'>
+                        <span class="time">
+                            <span id="min">3</span> : 
+                            <span id="sec">00</span>
+                        </span>
+                        <button id="comp_btn">인증</br>완료</button>
+                    </div>
+                    <h1 class="c_guide">안내</h1>
+                    </ul>
+                    <ul class="c_guide_text">
+                        <li>- 2분 이내로 인증번호(6자리)를 입력하세요.</li>
+                        <li>- 입력시간 초과시 재요청 버튼을 눌러주세요.</li>
+                    </ul>
+                </div>
+                <footer class="c_bottom">
+                        <button id="c_blue_box2">출금</button>
+                </footer>
+            </div>
+            <!--출금완료-->
+            <div id="Withdrawal_completed" style="display: none;">
+                <div class="completed">
+                    <div>
+                        <img src="assets/images/cash_withdrawal.png">
+                        <div class="btc_krw">
+                            <h1><span class="red">BTC</span> 0.1 개</h1>
+                            <h1><span>KRW</span>17,807,078.2 원</h1>
+                        </div>
+                        <h1>출금을 완료했습니다.</br>감사합니다.</h1>
+                    </div>
+                    <div>
+                        <button class="compl_btn" onClick="window.location.reload()">확인</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--코인 출금/인증-->
+        <div id="tab3" class="tab_content">
+            <div class="tab_content4">
+                <div class="h_top">
+                    <div class="select-box select-script">
+                        <label for="selectbox">전체</label>
+                            <select id="selectbox" title="선택 구분">
+                                <option selected="selected">&nbsp;&nbsp;전체</option>
+                                <option>&nbsp;&nbsp;BTC</option>
+                                <option>&nbsp;&nbsp;ETH</option>
+                                <option>&nbsp;&nbsp;DAS</option>
+                                <option>&nbsp;&nbsp;LTC</option>
+                                <option>&nbsp;&nbsp;ETC</option>
+                                <option>&nbsp;&nbsp;BCH</option>
+                                <option>&nbsp;&nbsp;XRP</option>
+                                <option>&nbsp;&nbsp;QTU</option>
+                                <option>&nbsp;&nbsp;BTG</option>
+                                <option>&nbsp;&nbsp;EOS</option>
+                            </select>
+                    </div>
+                </div>
+                <section class="main">
+                    <input type="text" class="datepicker" placeholder="2018/01/01">
+                    <img src="assets/images/line.png">
+                    <input type="text" class="datepicker" placeholder="2018/01/01">
+                    <button class="h_blue-btn" id="check_btn">조회</button>
+                </section>
+            </div>
+            <div id="deposit_withdrawal_history" style="display: none;">
+                <h1>내역조회</h1>
+                <div class="coin_history">
+                    <div class="history_box">
+                        <img src="assets/images/bitcoin.png" alt="">
+                        <div>
+                            <P>2019-01-01</P>
+                            <p>BTC</p>
+                            <p>0.2개</p>
+                            <P>177,255,626 KRW</P>
+                        </div>    
+                    </div>
+                    <div class="history_box">
+                        <img src="assets/images/bitcoin.png" alt="">
+                        <div>
+                            <P>2019-01-01</P>
+                            <p>BTC</p>
+                            <p>0.2개</p>
+                            <P>177,255,626 KRW</P>
+                        </div>    
+                    </div>
+                    <div class="history_box">
+                        <img src="assets/images/bitcoin.png" alt="">
+                        <div>
+                            <P>2019-01-01</P>
+                            <p>BTC</p>
+                            <p>0.2개</p>
+                            <P>177,255,626 KRW</P>
+                        </div>    
+                    </div>
+                    <div class="history_box">
+                        <img src="assets/images/bitcoin.png" alt="">
+                        <div>
+                            <P>2019-01-01</P>
+                            <p>BTC</p>
+                            <p>0.2개</p>
+                            <P>177,255,626 KRW</P>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+            $("#check_btn").click(function(){
+                    $('#deposit_withdrawal_history').show();
+            });
+        });
+        </script>
+    </div>
+    <!--비트코인 api-->
+    <script>
+        async function convertBTCtoKRW() {
+        const w_number_box = document.getElementById('w_number_box').value;
+    
+        // CoinGecko API endpoint to get current Bitcoin price in KRW
+        const apiUrl = 'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=krw';
+    
+        try {
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+    
+        // Get the current Bitcoin price in KRW
+        const bitcoinPriceKRW = data.bitcoin.krw;
+    
+        // Calculate KRW amount
+        const w_number_box2 = w_number_box * bitcoinPriceKRW;
+    
+        // Display result
+        document.getElementById('w_number_box2').textContent = w_number_box2.toLocaleString('en-US') + ' KRW';
+        } catch (error) {
+        console.error('Error fetching data:', error);
+        alert('Failed to fetch data. Please try again later.');
+        }
+    }
+    </script>
+    <!--다음 버튼-->
+    <script>
+        $(document).ready(function(){
+            $("#w_blue_btn").click(function(){
+                if($("#w_number_box").val().length==0){
+                    alert("비트고인 개수를 입력해주세요.");return false;
+                }else if($("#w_number_box").val().length>0){
+                    $('#coin_withdraw').hide();
+                    $('#coin_certification').show();
+                }
+            });
+        });
+    </script>
+    <script>
+        const Min = document.getElementById("min");
+        const Sec = document.getElementById("sec");
+        const compBtn = document.getElementById("comp_btn");
+
+        let time = 180;
+        const takeTarget = () => {
+        setInterval(function () {
+            if (time > 0) { // >= 0 으로하면 -1까지 출력된다.
+            time = time - 1; // 여기서 빼줘야 3분에서 3분 또 출력되지 않고, 바로 2분 59초로 넘어간다.
+            let min = Math.floor(time / 60);
+            let sec = String(time % 60).padStart(2, "0");
+            Min.innerText = min;
+            Sec.innerText = sec;
+            // time = time - 1
+            } else {
+                compBtn.disabled = true;
+            }
+        }, 1000);
+        };
+    </script>
+    <script>
+
+        function copy_to_clipboard() {    
+          var copyText = document.getElementById('d_gray_box');
+          copyText.select();
+          copyText.setSelectionRange(0, 99999);
+          document.execCommand("Copy");
+          alert('복사되었습니다, 감사합니다.');
+        }
+
+        function copy_to_clipboard2() {    
+          var copyText = document.getElementById('c_btc_box');
+          copyText.select();
+          copyText.setSelectionRange(0, 99999);
+          document.execCommand("Copy");
+        alert('복사되었습니다, 감사합니다.');
+        }
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#c_blue_box2").click(function(){
+                if($("#c_gray_box2").val().length==0){
+                    alert("인증요청을 완료하세요.");return false;
+                }else if($("#c_gray_box2").val().length>0){
+                    $('#coin_certification').hide();
+                    $('#Withdrawal_completed').show();
+                }
+            });
+        });
+        $(document).ready(function(){
+            $("#comp_btn").click(function(){
+                if($("#c_gray_box2").val().length==0){
+                    alert("인증번호를 입력하세요.");return false;
+                }else if($("#c_gray_box2").val().length>0){
+                    alert("인증이 완료되었습니다.");return false;
+                }
+            });
+        });
+    </script> 
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            var select = $('.select-script select');
+            select.change(function(){
+                var select_name = $(this).children('option:selected').text();
+                $(this).siblings("label").text(select_name);
+            });
+
+        });
+    </script>
+    <script>
+        function onlyNumber(event){
+            event = event || window.event;
+            var keyID = (event.which) ? event.which : event.keyCode;
+            if ( (keyID >= 48 && keyID <= 57) || (keyID >= 96 && keyID <= 105) || keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 ) 
+                return;
+            else
+                return false;
+        }
+            
+        function removeChar(event) {
+            event = event || window.event;
+            var keyID = (event.which) ? event.which : event.keyCode;
+            if ( keyID == 8 || keyID == 48 || keyID == 37 || keyID == 39 ) 
+                return;
+            else
+                event.target.value = event.target.value.replace(/[^0-9]/g, "");
+        }
+        </script>
+<!--datepicker 버튼 이미지 & 사이즈 수정-->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+$( function() {
+$( ".datepicker" ).datepicker({
+    showOn: "button",
+    buttonImage: "assets/images/date_btn.png",
+    buttonImageOnly: true,
+    buttonText: "Select date"
+});
+} );
+</script>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+    $(function () {
+
+        $(".tab_content").hide();
+        $(".tab_content:first").show();
+
+        $("ul.tabs li").click(function () {
+            $("ul.tabs li").removeClass("active").css("color", "#fff" );
+            //$(this).addClass("active").css({"color": "darkred","font-weight": "bolder"});
+            $(this).addClass("active").css("color", "#000");
+            $(".tab_content").hide()
+            var activeTab = $(this).attr("rel");
+            $("#" + activeTab).fadeIn()
+        });
+    });
+</script>
+</body>
+</html>

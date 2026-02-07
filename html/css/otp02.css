@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#otp02{}
+#otp02 .otp02-title{font-size:20px; font-weight:bold; margin-top:40px;}
+#otp02 #otp02-text{margin-left:20px;}
+#otp02 #otp02-text li{margin:20px;}
+#otp02 #otp02-text li:nth-child(3){color:red;}
+#otp02 #otp02-text li:nth-child(5){margin-top:-10px;}
+#otp02 #otp02-text li .box{width:280px; height:40px; background-color:#ccc; opacity:0.5; outline:none; border:none; padding-left:20px;}
+
+#bottom{width:100%; margin-top:300px;}
+#bottom span{font-size:18px; font-weight:bold; margin-left:5px; line-height:22px;}
+#bottom #before-btn{background-color:#fff; outline:none; border:none;height:24px;}

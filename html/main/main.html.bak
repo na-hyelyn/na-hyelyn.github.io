@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>한국체인블록연구소</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link type="text/css" rel="stylesheet" href="../../resources/css/common.css" />
+	<link type="text/css" rel="stylesheet" href="../../resources/css/contents.css" />
+	<link type="text/css" rel="stylesheet" href="../../resources/css/swiper.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script> 
+    <script type="text/javascript" src="../../resources/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../../resources/js/ui.js"></script>
+    <script src="../../resources/js/swiper.min.js"></script>
+	<script type="text/javascript">
+	//<![CDATA[
+		$(document).ready(function() {
+		  /*
+		  $('ol.coin-body li').hover(function() {
+			$(this).addClass('hover');
+		  }, function() {
+			$(this).removeClass('hover');
+		  });
+
+		  $('ol.coin-body-four li').hover(function() {
+			$(this).addClass('hover');
+		  }, function() {
+			$(this).removeClass('hover');
+		  });
+		  */
+		 
+
+		});
+
+	//]]>
+	</script>
+</head>
+<body>
+
+<header class="header">
+    <div class="header-nav">
+        <div class="nav">
+            <h1>한국블록체인</h1>
+            <nav>
+                <ul id="nav">
+                    <li><a href="#none">거래소</a>	</li>
+                    <li><a href="#none">차트&amp;토론방</a></li>
+                    <li class="dep1 m1"><a href="#none">이용안내</a>
+						<ul class="dep2">
+							<li><a href="#" class="btn-dep2">거래소 안내</a></li>
+							<li><a href="#" class="btn-dep2">이용안내</a></li>
+							<li><a href="#" class="btn-dep2">HTScoin 특징</a></li>
+							<li><a href="#" class="btn-dep2">수수료안내</a></li>
+							<li><a href="#" class="btn-dep2">수수료이용권</a></li>
+						</ul>
+					</li>
+                    <li class="dep1 m2"><a href="#none">고객센터</a>
+						<ul class="dep2">
+							<li><a href="#" class="btn-dep2">이벤트</a></li>
+							<li><a href="#" class="btn-dep2">1:1문의</a></li>
+							<li><a href="#" class="btn-dep2">공지사항</a></li>
+							<li><a href="#" class="btn-dep2">자주하는질문</a></li>
+						</ul>
+					</li>
+                    <li class="dep1 m3"><a href="#none">코인INFO</a>
+						<ul class="dep2">
+							<li><a href="#" class="btn-dep2">보도자료</a></li>
+							<li><a href="#" class="btn-dep2">코인뉴스</a></li>
+							<li><a href="#" class="btn-dep2">칼럼</a></li>
+							<li><a href="#" class="btn-dep2">코인용어집</a></li>
+						</ul>
+					</li>
+                    <li class="dep1 m4"><a href="#none">실전대회</a>
+						<ul class="dep2">
+							<li><a href="#" class="btn-dep2">대회안내</a></li>
+							<li><a href="#" class="btn-dep2">이용절차</a></li>
+							<li><a href="#" class="btn-dep2">신청</a></li>
+							<li><a href="#" class="btn-dep2">대회규정</a></li>
+							<li><a href="#" class="btn-dep2">대회중계실</a></li>
+						</ul>
+					</li>
+                    <li class="dep1 m5"><a href="#none">지갑관리</a>
+						<ul class="dep2">
+							<li><a href="#" class="btn-dep2">지갑잔액관리</a></li>
+							<li><a href="#" class="btn-dep2">KRW입금충전</a></li>
+							<li><a href="#" class="btn-dep2">KRW출금</a></li>
+							<li><a href="#" class="btn-dep2">KRW출금계좌등록/변경</a></li>
+						</ul>
+					</li>
+                </ul>
+            </nav>
+			<div class="utillMenu">
+				<div class="utMenu"><a href="#">리딩현황</a></div>
+				<div class="utMenu"><a href="#">원격지원</a></div>
+				<div class="utMenu btn-lang"><a href="#">KOR</a>
+					<div class="lang">
+						<ul>
+							<li><a href="#"><img src="../../resources/images/btn/lang_kor.png"> <span>KOR</span></a></li>
+							<li><a href="#"><img src="../../resources/images/btn/lang_eng.png"> <span>ENG</span></a></li>
+							<li><a href="#"><img src="../../resources/images/btn/lang_jpn.png"> <span>JPN</span></a></li>
+							<li><a href="#"><img src="../../resources/images/btn/lang_chi.png"> <span>CHI</span></a></li>
+							<li><a href="#"><img src="../../resources/images/btn/lang_tha.png"> <span>THA</span></a></li>
+							<li><a href="#"><img src="../../resources/images/btn/lang_phl.png"> <span>PHL</span></a></li>
+							<li><a href="#"><img src="../../resources/images/btn/lang_vtn.png"> <span>VTN</span></a></li>
+							<li><a href="#"><img src="../../resources/images/btn/lang_ins.png"> <span>INS</span></a></li>
+							<li><a href="#"><img src="../../resources/images/btn/lang_mla.png"> <span>MLA</span></a></li>
+							<li><a href="#"><img src="../../resources/images/btn/lang_sng.png"> <span>SNG</span></a></li>
+						</ul>
+					</div>
+				</div>
+				  
+				 
+			</div>
+        </div>
+    </div>
+    <div class="sub-nav">
+        <div class="sub-nav-contents">
+
+        </div>
+    </div>
+    <div class="header-info">
+        <div class="main-noti-txt">
+            <span class="new">NEW</span>[공지] 온라인 고객센터 오픈 안내
+            <a href="#none">더보기></a>
+        </div>
+    </div>
+</header>
+
+<!-- Contents -->
+<section class="contents">
+
+    <div class="horiz-layout">
+		<!-- Swiper -->
+		<div class="mTopSlider">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="../../resources/images/visual/main_visual01.jpg" /></div>
+					<div class="swiper-slide"><img src="../../resources/images/visual/main_visual01.jpg" /></div>
+					<div class="swiper-slide"><img src="../../resources/images/visual/main_visual01.jpg" /></div>
+				</div>
+				<!-- Add Arrows -->
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+		var swiper = new Swiper('.mTopSlider .swiper-container', {
+			nextButton: '.swiper-button-next',
+			prevButton: '.swiper-button-prev',
+			paginationType: 'fraction',
+			loop:true
+		});
+		</script>
+
+        <div class="main-login">
+			
+			<div class="after">
+				<p class="name">홍길동님</p>
+				<p class="nick">(nickname)</p>
+				<p class="lv">Lv. 1</p>
+				<p class="your-lv">우수회원<i></i></p>
+				<hr>
+				<div class="btnLogin">
+					<button type="button" class="btnLogin">마이페이지</button>
+					<a href="#none" class="sign-mem">로그아웃</a>
+				</div>
+			</div>
+			
+			<!--
+            <input type="text" class="" placeholder="EMAIL"/>
+            <input type="password" class="" placeholder="PASSWORD"/>
+
+            <div class="login-bottom">
+                <div class="auto-form">
+                    <input type="checkbox" id="autoLogin" class="check" />
+                    <label for="autoLogin">아이디 저장</label>
+                </div>
+                <span class="pwd-find"><a href="#none">아이디/비밀번호</a></span>
+            </div>
+			
+            <div class="btnLogin">
+				<button type="button" class="btnLogin">로그인</button>
+			    <a href="#none" class="sign-mem">회원가입</a>
+			</div>
+			-->
+
+
+        </div>
+
+    </div>
+
+    
+
+    <div class="vertical-layout">
+
+        <!-- left -->
+        <div class="v-left">
+			<div class="horiz-layout">
+
+        <div class="coin-up-down">
+            <ul>
+                <li><a href="#none">UP</a></li>
+                <li><a href="#none">DOWN</a></li>
+            </ul>
+        </div>
+
+        <div class="main-coin-table">
+
+            <div class="coin-head-fixed">
+                <span>코인</span>
+                <span>현재가</span>
+                <span>등락</span>
+            </div>
+
+            <ol class="coin-body">
+                <li>
+                    <ul class="coin-body-line active"><!-- 현재 코인 선택중 active 클래스 -->
+                        <li>BTC/KRW</li>
+                        <li>8,422,000</li>
+                        <li class="up">97,000(+1.19)</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="coin-body-line">
+                        <li>BTC/KRW</li>
+                        <li>8,422,000</li>
+                        <li class="up">97,000(+1.19)</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="coin-body-line">
+                        <li>BTC/KRW</li>
+                        <li>8,422,000</li>
+                        <li class="up">97,000(+1.19)</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="coin-body-line">
+                        <li>BTC/KRW</li>
+                        <li>8,422,000</li>
+                        <li class="up">97,000(+1.19)</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="coin-body-line">
+                        <li>BTC/KRW</li>
+                        <li>8,422,000</li>
+                        <li class="up">97,000(+1.19)</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="coin-body-line">
+                        <li>BTC/KRW</li>
+                        <li>8,422,000</li>
+                        <li class="up">97,000(+1.19)</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="coin-body-line">
+                        <li>BTC/KRW</li>
+                        <li>8,422,000</li>
+                        <li class="up">97,000(+1.19)</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <!--<table class="coin-no-line-table">
+                <colgroup>
+                    <col width="" />
+                    <col width="" />
+                    <col width="" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>코인</th>
+                        <th>현재가</th>
+                        <th>등락</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BTC/KRW</td>
+                        <td>8,422,000</td>
+                        <td class="up">97,000(+1.19)</td>
+                    </tr>
+                    <tr>
+                        <td>BTC/KRW</td>
+                        <td>8,422,000</td>
+                        <td class="up">97,000(+1.19)</td>
+                    </tr>
+                    <tr>
+                        <td>BTC/KRW</td>
+                        <td>8,422,000</td>
+                        <td class="up">97,000(+1.19)</td>
+                    </tr>
+                    <tr>
+                        <td>BTC/KRW</td>
+                        <td>8,422,000</td>
+                        <td class="up">97,000(+1.19)</td>
+                    </tr>
+                    <tr>
+                        <td>BTC/KRW</td>
+                        <td>8,422,000</td>
+                        <td class="up">97,000(+1.19)</td>
+                    </tr>
+                    <tr>
+                        <td>BTC/KRW</td>
+                        <td>8,422,000</td>
+                        <td class="up">97,000(+1.19)</td>
+                    </tr>
+                    <tr>
+                        <td>BTC/KRW</td>
+                        <td>8,422,000</td>
+                        <td class="up">97,000(+1.19)</td>
+                    </tr>
+                    <tr>
+                        <td>BTC/KRW</td>
+                        <td>8,422,000</td>
+                        <td class="up">197,000(+1.19)</td>
+                    </tr>
+                    <tr>
+                        <td>BTC/KRW</td>
+                        <td>8,422,000</td>
+                        <td class="up">297,000(+1.19)</td>
+                    </tr>
+                </tbody>
+            </table>-->
+        </div>
+
+        <div class="trading-vol">
+            <div class="coin-head-fixed-four">
+                <span>24H 거래량</span>
+                <span>24H 거래액</span>
+                <span>가격추세(3일)</span>
+            </div>
+
+            <ol class="coin-body-four">
+                <li>
+                    <ul class="coin-body-line">
+                        <li>564,458,589,565</li>
+                        <li>564,458,589,565</li>
+                        <li><img src="../../resources/images/common/temp_graph.png" alt=""></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="coin-body-line">
+                        <li>564,458,589,565</li>
+                        <li>564,458,589,565</li>
+                        <li><img src="../../resources/images/common/temp_graph.png" alt=""></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="coin-body-line">
+                        <li>564,458,589,565</li>
+                        <li>564,458,589,565</li>
+                        <li><img src="../../resources/images/common/temp_graph.png" alt=""></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="coin-body-line">
+                        <li>564,458,589,565</li>
+                        <li>564,458,589,565</li>
+                        <li><img src="../../resources/images/common/temp_graph.png" alt=""></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="coin-body-line">
+                        <li>564,458,589,565</li>
+                        <li>564,458,589,565</li>
+                        <li><img src="../../resources/images/common/temp_graph.png" alt=""></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="coin-body-line">
+                        <li>564,458,589,565</li>
+                        <li>564,458,589,565</li>
+                        <li><img src="../../resources/images/common/temp_graph.png" alt=""></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="coin-body-line">
+                        <li>564,458,589,565</li>
+                        <li>564,458,589,565</li>
+                        <li><img src="../../resources/images/common/temp_graph.png" alt=""></li>
+                    </ul>
+                </li>
+
+            </ol>
+            <!--<table class="coin-no-line-table">
+                <colgroup>
+                    <col width="" />
+                    <col width="" />
+                    <col width="" />
+                    <col width="" />
+                </colgroup>
+                <thead>
+                <tr>
+                    <th>시간</th>
+                    <th>현재가</th>
+                    <th>전일 대비</th>
+                    <th>체결량</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>2017-11-03 07:06:44</td>
+                    <td>11,480</td>
+                    <td class="down">-185</td>
+                    <td>0.01138352</td>
+                </tr>
+                <tr>
+                    <td>2017-11-03 07:06:44</td>
+                    <td>11,480</td>
+                    <td class="down">-185</td>
+                    <td>0.01138352</td>
+                </tr>
+                <tr>
+                    <td>2017-11-03 07:06:44</td>
+                    <td>11,480</td>
+                    <td class="down">-185</td>
+                    <td>0.01138352</td>
+                </tr>
+                <tr>
+                    <td>2017-11-03 07:06:44</td>
+                    <td>11,480</td>
+                    <td class="down">-185</td>
+                    <td>0.01138352</td>
+                </tr>
+                <tr>
+                    <td>2017-11-03 07:06:44</td>
+                    <td>11,480</td>
+                    <td class="down">-185</td>
+                    <td>0.01138352</td>
+                </tr>
+                <tr>
+                    <td>2017-11-03 07:06:44/td>
+                    <td>11,480</td>
+                    <td class="down">-185</td>
+                    <td>0.01138352</td>
+                </tr>
+                <tr>
+                    <td>2017-11-03 07:06:44</td>
+                    <td>11,480</td>
+                    <td class="down">-185</td>
+                    <td>0.01138352</td>
+                </tr>
+                </tbody>
+            </table>-->
+        </div>
+
+		
+
+    </div>
+           
+            <div class="pannel-one">
+                <!-- 호가창 -->
+                 <div class="status-area">
+                 	<div class="status-table">
+                 		<table>
+                 			<colgroup>
+                 				<col style="width:299px">
+                 				<col style="width:308px">
+                 				<col style="width:298px">
+                 			</colgroup>
+                 			<tbody class="status-down">
+								<tr>
+									<td class="price">
+										<div>
+											<span>0.045</span>
+											<em style="width:10%"></em>
+										</div>
+									</td>
+									<td class="volume">
+										<div>
+											<strong>10,130,000</strong>
+											<span>- 3.51%</span>
+										</div>
+									</td>
+									<td class="empty">&nbsp;</td>
+								</tr>
+								<tr>
+									<td class="price">
+										<div>
+											<span>0.045</span>
+											<em style="width:30%"></em>
+										</div>
+									</td>
+									<td class="volume">
+										<div>
+											<strong>10,130,000</strong>
+											<span>- 3.51%</span>
+										</div>
+									</td>
+									<td class="empty">&nbsp;</td>
+								</tr>
+								<tr>
+									<td class="price">
+										<div>
+											<span>0.045</span>
+											<em style="width:50%"></em>
+										</div>
+									</td>
+									<td class="volume">
+										<div>
+											<strong>10,130,000</strong>
+											<span>- 3.51%</span>
+										</div>
+									</td>
+									<td class="empty">&nbsp;</td>
+								</tr>
+								<tr>
+									<td class="price">
+										<div>
+											<span>0.045</span>
+											<em style="width:50%"></em>
+										</div>
+									</td>
+									<td class="volume">
+										<div>
+											<strong>10,130,000</strong>
+											<span>- 3.51%</span>
+										</div>
+									</td>
+									<td class="empty">&nbsp;</td>
+								</tr>
+								<tr>
+									<td class="price">
+										<div>
+											<span>0.045</span>
+											<em style="width:50%"></em>
+										</div>
+									</td>
+									<td class="volume">
+										<div>
+											<strong>10,130,000</strong>
+											<span>- 3.51%</span>
+										</div>
+									</td>
+									<td class="empty">&nbsp;</td>
+								</tr>
+                 			</tbody>
+                 			<tbody class="status-up">
+								<tr>
+									<td class="pers">
+										<div class="pers-box">
+											<strong>체결강도</strong>
+											<span>+ 253.45%</span>
+										</div>
+									</td>
+									<td class="volume">
+										<div>
+											<strong>10,130,000</strong>
+											<span>+ 3.51%</span>
+										</div>
+									</td>
+									<td class="price">
+										<div>
+											<span>0.045</span>
+											<em style="width:10%"></em>
+										</div>
+									</td>
+								</tr>
+								
+								<tr>
+									<td class="empty">&nbsp;</td>
+									<td class="volume">
+										<div>
+											<strong>10,130,000</strong>
+											<span>+ 3.51%</span>
+										</div>
+									</td>
+									<td class="price">
+										<div>
+											<span>0.045</span>
+											<em style="width:10%"></em>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="empty">&nbsp;</td>
+									<td class="volume">
+										<div>
+											<strong>10,130,000</strong>
+											<span>+ 3.51%</span>
+										</div>
+									</td>
+									<td class="price">
+										<div>
+											<span>0.045</span>
+											<em style="width:10%"></em>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="empty">&nbsp;</td>
+									<td class="volume">
+										<div>
+											<strong>10,130,000</strong>
+											<span>+ 3.51%</span>
+										</div>
+									</td>
+									<td class="price">
+										<div>
+											<span>0.045</span>
+											<em style="width:10%"></em>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="empty">&nbsp;</td>
+									<td class="volume">
+										<div>
+											<strong>10,130,000</strong>
+											<span>+ 3.51%</span>
+										</div>
+									</td>
+									<td class="price">
+										<div>
+											<span>0.045</span>
+											<em style="width:10%"></em>
+										</div>
+									</td>
+								</tr>
+                 			</tbody>
+                 		</table>
+                 	</div>
+                 	
+                 	<!-- 체결시간,체결가,체결량 -->
+                 	<div class="current-area">
+                 		<div class="c-head">
+                 			<span>체결시간</span>
+                 			<span>체결가</span>
+                 			<span>체결량</span>
+                 		</div>
+                 		<div class="c-body">
+                 			<div>
+                 				<span>07:23</span>
+                 				<span>555,323,111</span>
+                 				<span>0.000675</span>
+                 			</div>
+                 			<div>
+                 				<span>07:23</span>
+                 				<span>555,323,111</span>
+                 				<span>0.000675</span>
+                 			</div>
+                 			<div>
+                 				<span>07:23</span>
+                 				<span>555,323,111</span>
+                 				<span>0.000675</span>
+                 			</div>
+                 			<div>
+                 				<span>07:23</span>
+                 				<span>555,323,111</span>
+                 				<span>0.000675</span>
+                 			</div>
+                 			<div>
+                 				<span>07:23</span>
+                 				<span>555,323,111</span>
+                 				<span>0.000675</span>
+                 			</div>
+                 		</div>
+                 	</div>
+                 	<!-- // 체결시간,체결가,체결량 -->
+                 	
+                 	<!-- 거래량 거래대금 등 -->
+                 	<div class="trade-current">
+                 		<div class="t-inner">
+                 			<div class="t-section">
+								<dl>
+									<dt>거래량</dt>
+									<dd><strong class="black">415,158</strong> BTC</dd>
+								</dl>
+								<dl>
+									<dt>거래량</dt>
+									<dd><strong><span  class="black">509,159</span> 백만원</strong>  (최근 24시간)</dd>
+								</dl>
+                 			</div>
+                 			<div class="t-section">
+								<dl>
+									<dt>52주 최고</dt>
+									<dd><strong class="red">13.740.000</strong> (2017,11,12)</dd>
+								</dl>
+								<dl>
+									<dt>52주 최저</dt>
+									<dd><strong class="blue">13.740.000</strong> (2017,11,12)</dd>
+								</dl>
+                 			</div>
+                 			<div class="">
+								<dl>
+									<dt>전일증가</dt>
+									<dd><strong class="black">13.740.000</strong></dd>
+								</dl>
+								<dl>
+									<dt>당일고가</dt>
+									<dd class="red"><strong>13.740.000</strong> +14.02%</dd>
+								</dl>
+                				<dl>
+									<dt>당일저가</dt>
+									<dd class="blue"><strong>13.740.000</strong> -14.02%</dd>
+								</dl>
+                 			</div>
+                 		</div>
+                 	</div>
+                 	<!-- // 거래량 거래대금 등 -->
+                 </div>
+            </div>
+
+            <!-- 공지,이벤트 -->
+            <div class="pannel-two">
+
+                <!-- 공지사항 -->
+                <div class="pannel-mini">
+                    <h3 class="title-line">공지사항</h3>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt><a href="#none">타사에는 없는 HTScoin의 특징</a></dt>
+                                <dd>2017. 11. 02</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#none">[2017-10-30] 홈페이지 작업 공지</a></dt>
+                                <dd>2017. 11. 02</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#none">[당첨자발표] 유정현 아나운서 HTScoin 오픈..</a></dt>
+                                <dd>2017. 11. 02</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#none">회원가입 실명인증 관련</a></dt>
+                                <dd>2017. 11. 02</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 이벤트 -->
+                <div class="pannel-mini">
+                    <h3 class="title-line">이벤트</h3>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt><a href="#none">세계 최초 최저 수수료</a></dt>
+                                <dd>2017. 11. 02</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#none">유정현 아나운서 HTScoin 오픈기념 축하메..</a></dt>
+                                <dd>2017. 11. 02</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#none">한국블록체인 "HTScoin"출석이벤트! 매일..</a></dt>
+                                <dd>2017. 11. 02</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#none">GRAND OPEN! (주)한국블록체인거래소..</a></dt>
+                                <dd>2017. 11. 02</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+
+            </div><!--// 공지,이벤트 -->
+
+            <!-- 보도자료, 코인뉴스-->
+            <div class="pannel-one">
+                <ul id="tab" class="tab tab-four mb20">
+                    <li><a href="#none" class="active">보도자료</a></li>
+                    <li><a href="#none">코인뉴스</a></li>
+                </ul>
+
+                <div id="tabContent">
+
+                    <!-- 보도자료 -->
+                    <div>
+                        <ul class="news-li">
+                            <li>
+                                <dl>
+                                    <dd><img src="../../resources/images/dummy/dummy_img01.jpg" /></dd>
+                                    <dt>아마존, 비트코인 시장 진출?. 암호화폐 연관 도메인 사들여 <span class="news-date">2017. 11. 02</span></dt>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dd><img src="../../resources/images/dummy/dummy_img02.jpg" /></dd>
+                                    <dt>비트코인이 5000달러 넘을 4가지 이유 <span class="news-date">2017. 11. 02</span></dt>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dd><img src="../../resources/images/dummy/dummy_img03.jpg" /></dd>
+                                    <dt>비트코인으로 럭셔리 요트 구매도 가능해진다 <span class="news-date">2017. 11. 02</span></dt>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div><!--// 보도자료 -->
+
+                    <!-- 코인뉴스 -->
+                    <div>
+                        <ul class="news-li">
+                            <li>
+                                <dl>
+                                    <dd><img src="../../resources/images/dummy/dummy_img01.jpg" /></dd>
+                                    <dt>코인뉴스 코인뉴스 코인뉴스 코인뉴스 코인뉴스 <span class="news-date">2017. 11. 02</span></dt>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dd><img src="../../resources/images/dummy/dummy_img02.jpg" /></dd>
+                                    <dt>비트코인이 5000달러 넘을 4가지 이유 <span class="news-date">2017. 11. 02</span></dt>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dd><img src="../../resources/images/dummy/dummy_img03.jpg" /></dd>
+                                    <dt>비트코인으로 럭셔리 요트 구매도 가능해진다 <span class="news-date">2017. 11. 02</span></dt>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div><!--// 코인뉴스 -->
+
+                </div>
+            </div><!-- 보도자료, 코인뉴스-->
+
+            <!-- 축하메세지 -->
+            <div class="pannel-one no-tab">
+                <h3 class="title-line">축하메세지</h3>
+                <ul class="news-li">
+                    <li>
+                        <dl>
+                            <dd><img src="../../resources/images/dummy/dummy_img04.jpg" /></dd>
+                            <dt>유정현 아나운서 HTScoin 오픈기념 축하메세지와 특별한 이벤트!</dt>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dd><img src="../../resources/images/dummy/dummy_img05.jpg" /></dd>
+                            <dt>가수 김민종 HTScoin 모바일 앱 오픈 기념 축하메세지와 특별한 이벤트!</dt>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dd><img src="../../resources/images/dummy/dummy_img06.jpg" /></dd>
+                            <dt>가수 김민종 HTScoin 모바일 앱 오픈 기념 축하메세지와 특별한 이벤트!</dt>
+                        </dl>
+                    </li>
+                </ul>
+            </div><!--// 축하메세지 -->
+
+            <!-- HTScoin 소개 -->
+            <div class="company-profile">
+                <h3 class="title-line-top">HTScoin 소개</h3>
+
+                <div class="box-contents">
+                    <span><img src="../../resources/images/icon/htscoin_main_icon01.png" /></span>
+                    <dl>
+                        <dt>전문가 차트</dt>
+                        <dd>전문트레이더를 위해 각종 분석과<br>투자를 효과적으로 할 수 있도록<br>시스템 제공</dd>
+                    </dl>
+                </div>
+
+                <div class="box-contents">
+                    <span><img src="../../resources/images/icon/htscoin_main_icon02.png" /></span>
+                    <dl>
+                        <dt>다양한 플랫폼</dt>
+                        <dd>PC 프로그램, 모바일 앱,<br>웹기반 거래소를 지원하여<br>빠른 거래가 가능</dd>
+                    </dl>
+                </div>
+
+                <div class="box-contents">
+                    <span><img src="../../resources/images/icon/htscoin_main_icon03.png" /></span>
+                    <dl>
+                        <dt>증권시스템 UI</dt>
+                        <dd>기존 경험했던 증권시스템과 친숙한 UI 제공<br>자동 로스컷, 예약주문 및 편리한 기능<br>제공으로 전문 트레이더들도 쉬운 적응</dd>
+                    </dl>
+                </div>
+
+                <div class="box-contents">
+                    <span><img src="../../resources/images/icon/htscoin_main_icon04.png" /></span>
+                    <dl>
+                        <dt>스피드 주문</dt>
+                        <dd>수익방향을 예측하였을시 편리한 스피드<br>주문 제공으로 이익 극대화 가능</dd>
+                    </dl>
+                </div>
+
+                <div class="box-contents">
+                    <span><img src="../../resources/images/icon/htscoin_main_icon05.png" /></span>
+                    <dl>
+                        <dt>안정적인 핀테크 기술 확보</dt>
+                        <dd>타사 보다 한차원 높은<br>거래시스템과 차별화된<br>솔루션의 제공</dd>
+                    </dl>
+                </div>
+
+                <div class="box-contents">
+                    <span><img src="../../resources/images/icon/htscoin_main_icon06.png" /></span>
+                    <dl>
+                        <dt>철저한 보안인증 관리</dt>
+                        <dd>공신력있는 기관과 실질적 제휴</dd>
+                    </dl>
+                </div>
+                
+
+            </div>
+            <!--// HTScoin 소개 -->
+
+            <div class="hts-partner">
+                <h3 class="title-line-top">HTScoin와 함께하는 기업들</h3>
+                <ul>
+                    <li><img src="../../resources/images/etc/partner01.png" /></li>
+                    <li><img src="../../resources/images/etc/partner02.png" /></li>
+                    <li><img src="../../resources/images/etc/partner03.png" /></li>
+                    <li><img src="../../resources/images/etc/partner04.png" /></li>
+                    <li><img src="../../resources/images/etc/partner05.png" /></li>
+                </ul>
+            </div>
+
+			<div class="mFooterBtn"><button type="button" class="login-btn">거래소 시작하기</button></div>
+
+        </div>
+
+        <!-- right -->
+        <div class="v-right">
+			<div class="world-coin-price">
+						<h3 class="p-tit01">10.24 (금) 해외시세</h3>
+			<!-- Swiper -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<!-- swiper-slide -->
+					<div class="swiper-slide">
+						<ul class="exchange">
+							<li>
+								<dl>
+									<dt>Coincheck111<span class="coin-name">BTC/JPY</span></dt>
+									<dd class="ex-price">671,467 JPY</dd>
+									<dd class="ex-vol">66569.161 BTC</dd>
+									<dd class="ex-fluct down">1.0200000</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>Coincheck111<span class="coin-name">BTC/JPY</span></dt>
+									<dd class="ex-price">671,467 JPY</dd>
+									<dd class="ex-vol">66569.161 BTC</dd>
+									<dd class="ex-fluct up">1.0200000</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<!-- swiper-slide -->
+					<div class="swiper-slide">
+						<ul class="exchange">
+							<li>
+								<dl>
+									<dt>Coincheck222<span class="coin-name">BTC/JPY</span></dt>
+									<dd class="ex-price">671,467 JPY</dd>
+									<dd class="ex-vol">66569.161 BTC</dd>
+									<dd class="ex-fluct down">1.0200000</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>Coincheck222<span class="coin-name">BTC/JPY</span></dt>
+									<dd class="ex-price">671,467 JPY</dd>
+									<dd class="ex-vol">66569.161 BTC</dd>
+									<dd class="ex-fluct up">1.0200000</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>					
+					<!-- swiper-slide -->
+					<div class="swiper-slide">
+						<ul class="exchange">
+							<li>
+								<dl>
+									<dt>Coincheck333<span class="coin-name">BTC/JPY</span></dt>
+									<dd class="ex-price">671,467 JPY</dd>
+									<dd class="ex-vol">66569.161 BTC</dd>
+									<dd class="ex-fluct down">1.0200000</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>Coincheck333<span class="coin-name">BTC/JPY</span></dt>
+									<dd class="ex-price">671,467 JPY</dd>
+									<dd class="ex-vol">66569.161 BTC</dd>
+									<dd class="ex-fluct up">1.0200000</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Add Arrows -->
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			</div>
+
+			<!-- Initialize Swiper -->
+			<script>
+			var swiper = new Swiper('.world-coin-price .swiper-container', {
+				
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+				slidesPerView: 1,
+				paginationClickable: true,
+				loop: true
+			});
+			</script>
+		</div>
+            <ul class="main-aside-banner">
+                <li><a href="#none"><img src="../../resources/images/banner/event_banner.png" /></a></li>
+                <li class="pcDown">
+					<a href="#none" class="btnDown">PC버전 다운받기</a>					
+					<a href="#none" class="btnInfo">이용안내</a>
+				</li>
+                <li class="mobileDown">
+					<a href="#none" class="btnDown">모바일버전 다운받기</a>		
+					<a href="#none" class="btnInfo">이용안내</a>
+				</li>
+                <li><a href="#none"><img src="../../resources/images/banner/remote_banner.png" /></a></li>
+                <li><a href="#none"><img src="../../resources/images/banner/coin_guide.png" /></a></li>
+                <li><a href="#none"><img src="../../resources/images/banner/banner_commission.png" /></a></li>
+                <li><a href="#none"><img src="../../resources/images/banner/customer_banner.png" /></a></li>
+            </ul>
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-contents">
+        <h2>HTS Coin</h2>
+        <div class="footer-info">
+            <ul>
+                <li><a href="#none">회사소개</a></li>
+                <li><a href="#none">이용약관</a></li>
+                <li><a href="#none">개인정보취급방침</a></li>
+                <li><a href="#none">PC HTS 다운로드</a></li>
+                <li><a href="#none">모바일 APP 다운로드</a></li>
+                <li><a href="#none">제휴문의</a></li>
+                <li><a href="#none">채용문의</a></li>
+            </ul>
+            <address>상호: (주)한국블록체인거래소| 대표: 신동화| 주소: 서울특별시 강남구 테헤란로 238, 15층(역삼동)| TEL: 1566-0778</address>
+            <p>사업자 등록번호: 137-86-53346| 통신판매 신고번호: 제2017-서울강남-03899호| EMAIL: info@htscoin.com</p>
+            <p>Copyright(c) 한국블록체인거래소. All Rights Reserved. 121</p>
+        </div>
+
+        <div class="foot-etc">
+            <ul class="sns">
+                <li><a href="#none"><img src="../../resources/images/etc/naver.png" /></a></li>
+                <li><a href="#none"><img src="../../resources/images/etc/facebook.png" /></a></li>
+                <li><a href="#none"><img src="../../resources/images/etc/twitter.png" /></a></li>
+            </ul>
+            <div class="qr-code">
+                <img src="../../resources/images/etc/qr_code.png" />
+            </div>
+        </div>
+
+
+    </div>
+</footer>
+<script type="text/javascript" src="../../resources/js/wSelect.min.js"></script>
+ 
+  <style>
+	.wSelect-multiple {
+	  width: 150px;
+	}
+  </style>   
+
+  <script type="text/javascript">
+	  
+	/**************************
+	Coin Refresh Animation
+	설명 : 색상 애니메이션을 주고 싶은곳에 animated1 클래스 혹은 animated2 클래스를 넣어주면 됩니다.
+	**************************/
+	 setTimeout(function(){
+	  	$('.trading-vol .coin-body-four > li').eq(1).find('.coin-body-line').addClass('animated')
+	 }, 1000);
+	  setTimeout(function(){
+	  	$('.trading-vol .coin-body-four > li').eq(2).find('.coin-body-line').addClass('animated')
+	 }, 2000);
+	  setTimeout(function(){
+	  	$('.trading-vol .coin-body-four > li').eq(3).find('.coin-body-line').addClass('animated')
+	 }, 3000);
+	  
+	  setTimeout(function(){
+	  	$('.trading-vol .coin-body-four > li').eq(4).find('.coin-body-line').addClass('animated')
+	 }, 4000);
+	  
+	  setTimeout(function(){
+	  	$('.trading-vol .coin-body-four > li').eq(5).find('.coin-body-line').addClass('animated')
+	 }, 5000);
+	 
+	  
+	  
+	  setTimeout(function(){
+	  	$('.main-coin-table .coin-body > li').eq(3).find('.coin-body-line').addClass('animated')
+	 }, 1000);
+	  setTimeout(function(){
+	  	$('.main-coin-table .coin-body > li').eq(4).find('.coin-body-line').addClass('animated')
+	 }, 2000);
+	  setTimeout(function(){
+	  	$('.main-coin-table .coin-body > li').eq(5).find('.coin-body-line').addClass('animated')
+	 }, 3000);
+	  
+	  setTimeout(function(){
+	  	$('.main-coin-table .coin-body > li').eq(6).find('.coin-body-line').addClass('animated')
+	 }, 4000);
+	  
+	  
+	 /* 호가창 색상 오버 애니메이션 예제 */
+	 setTimeout(function(){
+	  	$('.status-table .status-down').find('.volume, .price').addClass('animated-blue');
+	 }, 1000);
+	  
+	 setTimeout(function(){
+	  	$('.status-table .status-up').find('.volume, .price').addClass('animated-red');
+	 }, 2000);
+	  
+	$('select').wSelect();
+
+	$('#language, #demo-multi').change(function() {
+	  console.log($(this).val());
+	});
+
+	$('#language').val('AU').change(); // should see in console
+	$('#language').val('PL').wSelect('change'); // should see the selected option change to three
+	$('#language').append('<option value="KOR" data-icon="../../resources/images/common/ico_lang_kor.png">United States of America</option>').wSelect('reset');
+	$('#language').val('CA').change();
+	
+	$('#demo-multi').val(['soccer', 'archery']).change();
+
+	// Testing append from one select to another.
+	$('#language option:last').appendTo('#demo-multi');
+	$('#language, #demo-multi').wSelect('reset');
+  </script>
+</body>
+</html>

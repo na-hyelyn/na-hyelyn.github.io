@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/*메인CSS*/
+.wrap{width:100%; height:100%; max-width:1024px;}
+#menu{width:100%;height:100%; max-width:1024px;padding:0;}
+#menu_list{width:100%; height:100%; padding:0;}
+#menu_list li{ margin:20px;width:100%;margin-left:-0.001px; height:100%; line-height:20px;}
+#menu_list li a{color:#575757; font-size:100%; font-weight:bold; margin-top:-10px; margin-left:20px; float:left; margin-bottom:10px; display:block; width:100%;height:100%;}
+hr{ width:100%; margin-left:-2.933333333333333%;}
+
+/*KRW입금*/
+
+#wrap{ width:100%; height:100%; max-width:1024px;}
+.top{ width:100%; height:100%; color:#444444;}
+.title{ font-size:100%; margin-top:15px; line-height:15px;margin-bottom:15px; font-weight:bold; margin-left:5.066666666666667%;}
+hr{ width:100%; margin-top:15px; margin:0;}
+.main{ background-color:#f3f3f3; width:100%; height:100%; float:left;}
+.yellow_box{ background-color:#fabe3d; width:17.4%; height:35px; border-radius:5px; line-height:35px;
+             color:#fff; margin-left:5.066666666666667%; margin-top:17px; font-size:100%;
+             font-weight:bold; text-align:center;}
+.s_text{ margin-left:5.066666666666667%; margin-top:30px; font-size:100%;}
+.g_img img{ width:87.46666666666667%; height:auto; margin-top:22px; margin-left:6.4%;}
+#g_img2 img{ width:54.8%; height:auto; margin-top:22px; margin-left:22.66666666666667%;}
+.step3 p{margin-bottom:50px;}
+
+/*KRW출금*/
+
+#wrap{ width:100%; height:100%; max-width:1024px;}
+.top{ width:100%; height:100%; color:#444444;}
+.title{ font-size:100%; margin-top:15px; line-height:15px;margin-bottom:15px; font-weight:bold; margin-left:5.066666666666667%;}
+hr{ width:100%;margin-top:15px; margin:0;}
+.main{ background-color:#f3f3f3; width:100%; height:100%; float:left;}
+.yellow_box{ background-color:#fabe3d; width:17.4%; height:35px; border-radius:5px; line-height:35px;
+             color:#fff; margin-left:5.066666666666667%; margin-top:17px; font-size:100%;
+             font-weight:bold; text-align:center;}
+#s_text{ margin-left:5.066666666666667%; margin-top:30px; font-size:100%;}
+.g_img img{ width:54.93333333333333%; height:auto; margin-top:22px; margin-left:22.53333333333333%;}
+#g_img2 img{ width:54.93333333333333%; height:auto; margin-top:22px; margin-left:22.53333333333333%;}
+.g_img3 img{width:54.93333333333333%; height:auto; margin-top:22px; margin-left:22.53333333333333%;}
+#step4 p{margin-bottom:50px;}
+
+/*코인입금*/
+
+#wrap{ width:100%; height:100%; max-width:1024px;}
+.top{ width:100%; height:100%; color:#444444;}
+.title{ font-size:100%; margin-top:15px; line-height:15px;margin-bottom:15px; font-weight:bold; margin-left:5.066666666666667%;}
+hr{ width:100%;margin-top:15px; margin:0;}
+.main{ background-color:#f3f3f3; width:100%; height:100%; float:left;}
+.yellow_box{ background-color:#fabe3d; width:17.4%; height:35px; border-radius:5px; line-height:35px;
+             color:#fff; margin-left:5.066666666666667%; margin-top:17px; font-size:100%;
+             font-weight:bold; text-align:center;}
+.s_text{ margin-left:5.066666666666667%; margin-top:30px; font-size:100%;}
+.g_img img{ width:57.06666666666667%; height:auto; margin-top:22px; margin-left:22.8%;}
+.step2 p{margin-top:25px;margin-bottom:25px;}
+.g_img3 img{width:55.06666666666667%; height:auto; margin-top:22px; margin-left:22.8%; margin-bottom:50px;}
+
+/*코인출금*/
+#wrap{ width:100%; height:100%; max-width:1024px;}
+.top{ width:100%; height:100%; color:#444444;}
+.title{ font-size:100%; margin-top:15px; line-height:15px;margin-bottom:15px; font-weight:bold; margin-left:5.066666666666667%;}
+hr{ width:100%;margin-top:15px; margin:0;}
+.main{ background-color:#f3f3f3; width:100%; height:100%; float:left;}
+.yellow_box{ background-color:#fabe3d; width:17.4%; height:35px; border-radius:5px; line-height:35px;
+             color:#fff; margin-left:5.066666666666667%; margin-top:17px; font-size:100%;
+             font-weight:bold; text-align:center;}
+.yellow_box2{background-color:#fabe3d; width:30px; height:30px; border-radius:5px; line-height:30px;
+             color:#fff; margin-left:5.066666666666667%; margin-top:30px; font-size:1.5em;
+             font-weight:bold; text-align:center;}
+.s_text{ margin-left:5.066666666666667%; margin-top:30px; font-size:100%;}
+.s_text span{color:red;}
+.g_img img{ width:57.33333333333333%; height:auto; margin-top:22px; margin-left:20.13333333333333%;}
+#g_img2 img{ width:56.53333333333333%; height:auto; margin-top:22px; margin-left:21.2%;}
+.g_img3 img{width:54.93333333333333%; height:auto; margin-top:22px; margin-left:22.53333333333333%; margin-bottom:50px;}
+.step2 p{margin-top:25px;margin-bottom:25px;}
+.step4{width:100%; height:125px;}
+.step4 p{margin-bottom:25px;}
+.step5{width:100%;margin-top:25px;}
+.step5 span{font-weight:bold;}
+ 
+/*매수하기*/
+
+#wrap{ width:100%; height:100%; max-width:1024px;}
+.top{ width:100%; height:100%; color:#444444;}
+.title{ font-size:100%; margin-top:15px; line-height:15px;margin-bottom:15px; font-weight:bold; margin-left:5.066666666666667%;}
+hr{ width:100%;margin-top:15px; margin:0;}
+.main{ background-color:#f3f3f3; width:100%; height:100%; float:left;}
+.yellow_box{ background-color:#fabe3d; width:17.4%; height:35px; border-radius:5px; line-height:35px;
+             color:#fff; margin-left:5.066666666666667%; margin-top:17px; font-size:100%;
+             font-weight:bold; text-align:center;}
+.s_text{ margin-left:5.066666666666667%; margin-top:30px; font-size:100%;}
+.g_img img{ width:64.26666666666667%; height:auto; margin-top:22px; margin-left:13.46666666666667%;}
+#g_img2 img{ width:54.93333333333333%; height:auto; margin-top:22px; margin-left:22.66666666666667%; margin-bottom:50px;}
+.step2 p{margin-top:25px;margin-bottom:25px;}
+.step3 p{margin-top:25px;margin-bottom:25px;}
+.step4{width:100%; height:auto;}
+
+/*매도하기*/
+
+#wrap{ width:100%; height:100%; max-width:1024px;}
+.top{ width:100%; height:100%; color:#444444;}
+.title{ font-size:100%; margin-top:15px; line-height:15px;margin-bottom:15px; font-weight:bold; margin-left:5.066666666666667%;}
+hr{ width:100%;margin-top:15px; margin:0;}
+.main{ background-color:#f3f3f3; width:100%; height:100%; float:left;}
+.yellow_box{ background-color:#fabe3d; width:17.4%; height:35px; border-radius:5px; line-height:35px;
+             color:#fff; margin-left:5.066666666666667%; margin-top:17px; font-size:100%;
+             font-weight:bold; text-align:center;}
+.s_text{ margin-left:5.066666666666667%; margin-top:30px; font-size:100%;}
+.g_img img{ width:64.26666666666667%; height:auto; margin-top:22px; margin-left:13.46666666666667%;}
+#g_img2 img{ width:54.93333333333333%; height:auto; margin-top:22px; margin-left:22.66666666666667%;margin-bottom:50px;}
+.step2 p{margin-top:25px;margin-bottom:25px;}
+.step3 p{margin-top:25px;margin-bottom:25px;}
+.step4{margin-bottom:50px;}
+
+/*주문취소*/
+
+#wrap{ width:100%; height:100%; max-width:1024px;}
+.top{ width:100%; height:100%; color:#444444;}
+.title{ font-size:100%; margin-top:15px; line-height:15px;margin-bottom:15px; font-weight:bold; margin-left:5.066666666666667%;}
+hr{ width:100%; margin-top:15px; margin:0;}
+.main{ background-color:#f3f3f3; width:100%; height:100%; float:left;}
+.yellow_box{ background-color:#fabe3d; width:17.4%; height:35px; border-radius:5px; line-height:35px;
+             color:#fff; margin-left:5.066666666666667%; margin-top:17px; font-size:100%;
+             font-weight:bold; text-align:center;}
+.s_text{ margin-left:5.066666666666667%; margin-top:30px; font-size:100%;}
+.g_img img{ width:54.93333333333333%; height:auto; margin-top:22px; margin-left:22.53333333333333%;}
+.g_img2 img{ width:88.53333333333333%; height:auto; margin-top:22px; margin-left:5.733333333333333%;}
+.g_img3 img{width:54.93333333333333%; height:auto; margin-top:22px; margin-left:22.53333333333333%; margin-bottom:50px;}
+

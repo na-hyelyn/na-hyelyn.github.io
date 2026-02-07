@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나혜린 포트폴리오</title>
+    <link rel="stylesheet" href="../resources/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../resources/css/main.css" type="text/css">
+    <link rel="stylesheet" href="../resources/css/slick.css" type="text/css">
+    <link rel="stylesheet" href="../resources/css/slick-theme.css" type="text/css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header_wrap">
+                <div class="h_logo">
+                    <h1>
+                        <a href="index.html">Na HyeLyn</a>
+                    </h1>
+                </div>
+                <nav class="flex">
+                    
+                    <div class="menu_btn">
+                        <button></button>
+                    </div>
+
+                    <ul class="h_menu">
+                        <li><a href="javascript:void(0);" onclick="scrollToAbout()">ABOUT ME</a></li>
+                        <li><a href="javascript:0;" onclick="scrollToSkill()">SKILL</a></li>
+                        <li><a href="javascript:0;" onclick="scrollToWork()">WORK</a></li>
+                        <li><a href="javascript:0;" onclick="scrollToProject()">PROJECT</a></li>
+                        <li><a href="javascript:0;" onclick="scrollToContact()">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="main" class="main_wrap">
+            <div class="intro_txt">
+                <h1 class="line">
+                    안녕하세요.
+                웹 퍼블리셔 나혜린입니다 :)
+                </h1>
+                <p>WELCOME TO MY PORTFOLIO</p>
+            </div>
+            <div id="scroll" class="scroll_down" onclick="scrollToAbout()"></div>
+        </section>
+        <section id="about" class="about_wrap">
+            <div class="inner">
+                <div class="m_inner">
+                    <div class="profile">
+                        <div class="intro_area">
+                            <img src="../resources/images/port_main/hyelyn_2.webp" alt="나혜린 이미지" class="main_img">
+                        </div>
+                        <!--<div class="about_txt">
+                            <dl>
+                                <dt>NAME</dt>
+                                <dd>나혜린</dd>
+                                <dt>BIRTH</dt>
+                                <dd>1995.05.19</dd>
+                                <dt>E-MAIL</dt>
+                                <dd>o3o122@naver.com</dd>
+                            </dl>
+                        </div>-->
+                    </div>
+                    <div class="intro_box">
+                        <div class="c_intro_txt_box">
+                            <h3>Na HyeLyn</h3>
+                            <p>안녕하세요! 웹 퍼블리셔 나혜린입니다.</p>
+                            <p>HTML, CSS, JavaScript를 기반으로
+                                웹 표준과 접근성을 고려한 화면 구현을 중심으로 업무를 수행해왔습니다.
+                            </p>
+                            <p>화면 구현에 그치지 않고, 요구사항과 사용 환경을 고려하며
+                                유지보수와 개선이 필요한 부분을 지속적으로 정리해왔습니다.
+                            </p>
+                            <P>맡은 역할을 끝까지 책임지고, 결과까지 이어지는 작업을 중요하게 생각합니다.</P>
+                            <div class="link_area">
+                                <a href="#" target="_blank" class="link_btn">이력서 보기</a>
+                                <a href="#" target="_blank" class="link_btn">경력기술서 보기</a>
+                            </div>
+                        </div>
+                        <div class="edu_box">
+                            <h3>EDUCATION</h3>
+                            <ul>
+                                <li>2017.05 ~ 11 웹접근성기반 스마트 UI/UX 디자인 제작(국가기간전략산업직종훈련)</li>
+                                <li>2021.09 ~ 2022.01 [디지털컨버전스_플립드러닝] 자바 & 스프링 프레임워크개발 양성과정</li>
+                            </ul>
+                        </div>
+                        <div class="history_box">
+                            <h3>WORK EXPERIENCE</h3>
+                            <ul class="timeline">
+                                <li>
+                                    <span class="dot" aria-hidden="true"></span>
+                                    <span class="date">2024.11 ~ 2025.05</span>&nbsp;&nbsp;
+                                    <p>코어트레이더스</p>
+                                </li>
+                                <li>
+                                    <span class="dot" aria-hidden="true"></span>
+                                    <span class="date">2022.08 ~ 2023.07</span>&nbsp;&nbsp;
+                                    <p>에이치비저축은행</p>
+                                </li>
+                                <li>
+                                    <span class="dot" aria-hidden="true"></span>
+                                    <span class="date">2022.05 ~ 2022.07</span>&nbsp;&nbsp;
+                                    <p>브랜드콘텐츠</p>
+                                </li>
+                                <li>
+                                    <span class="dot" aria-hidden="true"></span>
+                                    <span class="date">2020.12 ~ 2021.08</span>&nbsp;&nbsp;
+                                    <p>웹플래너</p>
+                                </li>
+                                <li>
+                                    <span class="dot" aria-hidden="true"></span>
+                                    <span class="date">2019.09 ~ 2020.10</span>&nbsp;&nbsp;
+                                    <p>제니스시스템</p>
+                                </li>
+                                <li>
+                                    <span class="dot" aria-hidden="true"></span>
+                                    <span class="date">2017.11 ~ 2019.04</span>&nbsp;&nbsp;
+                                    <p>한국블록체인거래소</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!--skill-->
+        <section id="skill" class="skill_wrap">
+             <div class="skill">
+                <div class="skill_group">
+                    <img src="../resources/images/icon/about_img_01.svg" alt="HTML">
+                    <img src="../resources/images/icon/about_img_02.svg" alt="CSS">
+                    <img src="../resources/images/icon/about_img_03.svg" alt="JavaScript">
+                    <img src="../resources/images/icon/about_img_04.svg" alt="Figma">
+                    <img src="../resources/images/icon/about_img_05.svg" alt="BOOTSTRAP">
+                    <img src="../resources/images/icon/about_img_06.svg" alt="PHOTOSHOP">
+                    <img src="../resources/images/icon/about_img_07.svg" alt="Illustrator">
+                    <img src="../resources/images/icon/about_img_08.svg" alt="JQUERY">
+                    <img src="../resources/images/icon/about_img_09.svg" alt="JAVA">
+                    <img src="../resources/images/icon/about_img_10.svg" alt="JSP">
+                    <img src="../resources/images/icon/about_img_11.svg" alt="ORACLE">
+                    <img src="../resources/images/icon/about_img_12.png" alt="SPRINGBOOT">
+                    <img src="../resources/images/icon/about_img_13.svg" alt="SPRING">
+                    <img src="../resources/images/icon/about_img_14.svg" alt="PHP">
+                    <img src="../resources/images/icon/about_img_15.svg" alt="SQL">
+                </div>
+                <div class="skill_group" aria-hidden="true">
+                    <img src="../resources/images/icon/about_img_01.svg" alt="HTML">
+                    <img src="../resources/images/icon/about_img_02.svg" alt="CSS">
+                    <img src="../resources/images/icon/about_img_03.svg" alt="JavaScript">
+                    <img src="../resources/images/icon/about_img_04.svg" alt="Figma">
+                    <img src="../resources/images/icon/about_img_05.svg" alt="BOOTSTRAP">
+                    <img src="../resources/images/icon/about_img_06.svg" alt="PHOTOSHOP">
+                    <img src="../resources/images/icon/about_img_07.svg" alt="Illustrator">
+                    <img src="../resources/images/icon/about_img_08.svg" alt="JQUERY">
+                    <img src="../resources/images/icon/about_img_09.svg" alt="JAVA">
+                    <img src="../resources/images/icon/about_img_10.svg" alt="JSP">
+                    <img src="../resources/images/icon/about_img_11.svg" alt="ORACLE">
+                    <img src="../resources/images/icon/about_img_12.png" alt="SPRINGBOOT">
+                    <img src="../resources/images/icon/about_img_13.svg" alt="SPRING">
+                    <img src="../resources/images/icon/about_img_14.svg" alt="PHP">
+                    <img src="../resources/images/icon/about_img_15.svg" alt="SQL">
+                </div>
+            </div>
+            <div class="skill_intro">
+                <div class="skill_tit">
+                    <h3>기획부터 운영까지의 흐름을 이해하며,
+                        안정적인 결과를 만들어왔습니다.
+                    </h3>
+                </div>
+                <div class="skill_content">
+                    <ul>
+                        <li class="s_tit_ico">Publishing & Front-end</li>
+                        <li>웹 표준과 접근성을 고려한 퍼블리싱을 기반으로
+                            금융권 프로젝트 다수에 참여하며 
+                            안정적인 화면 구현과 유지보수를 수행해왔습니다.
+                        </li>
+                        <li class="s_tit_ico">Financial IT Experience</li>
+                        <li>은행 및 저축은행 프로젝트에서
+                            퍼블리싱과 산출물 관리, 프론트엔드 업무를 수행하며
+                            금융 서비스 특유의 기준과 프로세스를 이해하고 있습니다.
+                        </li>
+                        <li class="s_tit_ico">Planning & Operation</li>
+                        <li>디지털전환 프로젝트에서
+                            일정 관리(WBS), 디자인 협업, 관리자 페이지 검토,
+                            테스트 및 보고서 작성까지 전반적인 업무 흐름을 경험했습니다.
+                        </li>
+                        <li class="s_tit_ico">Technical Understanding</li>
+                        <li>HTML, CSS, JavaScript, jQuery 기반의 퍼블리싱 경험과 함께
+                            Java, JSP, SQL, Spring, PHP 환경에서
+                            실무 유지보수 및 수정 업무를 수행해왔습니다.
+                        </li>
+                    </ul>
+                    <!--img src="../resources/images/port_main/coding.png" alt="코딩 아이콘">-->
+                </div>
+            </div>
+        </section>
+        <section id="work" class="work_wrap">
+            <div class="work_tit">
+                <h2>Work</h2>
+                <p>나혜린 <strong>작업물</strong> 입니다.</p>
+            </div>
+            <div class="portfolio_slider">
+                <div class="portfolio_slide">
+                    <div class="portfolio_card">
+                        <img src="../resources/images/port_main/portfolio_01.png" alt="한국블록체인거래소 포트폴리오 이미지">
+                        <div class="card_txt">
+                            <p>파트너센터 디자인/퍼블리싱 작업</p>
+                            <strong>파트너센터 고정형웹</strong>
+                        </div>
+                        <div class="card_btn_box">
+                            <a href="../html/main/partner-main.html" target="_blank" class="card_btn">Web view</a>
+                        </div>
+                        <div class="tag">
+                            <span>#디자인 기여도 : 100%</span>
+                            <span>#퍼블리싱 기여도 : 100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_slide">
+                    <div class="portfolio_card">
+                        <img src="../resources/images/port_main/portfolio_02.png" alt="부트스트랩 기반 포트폴리오 이미지">
+                        <div class="card_txt">
+                            <p>부트스트랩 포트폴리오 디자인/퍼블리싱 작업</p>
+                            <strong>부트스트랩 포트폴리오 반응형</strong>
+                        </div>
+                        <div class="card_btn_box">
+                            <a href="../html/index_24.html" target="_blank" class="card_btn">Web view</a>
+                        </div>
+                        <div class="tag">
+                            <span>#디자인 기여도 : 100%</span>
+                            <span>#퍼블리싱 기여도 : 100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_slide">
+                    <div class="portfolio_card">
+                        <img src="../resources/images/port_main/portfolio_03.png" alt="파트너센터 마이페이지 이미지">
+                        <div class="card_txt">
+                            <p>파트너센터 마이페이지 디자인/퍼블리싱 작업</p>
+                            <strong>파트너센터 마이페이지 고정형웹</strong>
+                        </div>
+                        <div class="card_btn_box">
+                            <a href="../html/portfolio_board.html" target="_blank" class="card_btn more_btn">More</a>
+                        </div>
+                        <div class="tag">
+                            <span>#디자인 기여도 : 100%</span>
+                            <span>#퍼블리싱 기여도 : 100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_slide">
+                    <div class="portfolio_card">
+                        <img src="../resources/images/port_main/portfolio_04.png" alt="코인입/출금 및 내역 이미지">
+                        <div class="card_txt">
+                            <p>코인입/출금 및 내역 디자인/퍼블리싱 작업</p>
+                            <strong>코인입/출금 및 내역 반응형</strong>
+                        </div>
+                        <div class="card_btn_box">
+                            <a href="../html/coin_deposit,withdraw,history.html" target="_blank" class="card_btn">Web view</a>
+                        </div>
+                        <div class="tag">
+                            <span>#디자인 기여도 : 100%</span>
+                            <span>#퍼블리싱 기여도 : 100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_slide">
+                    <div class="portfolio_card">
+                        <img src="../resources/images/portfolio/stock_01.jpg" alt="배너 디자인 이미지">
+                        <div class="card_txt">
+                            <p>배너 디자인 작업</p>
+                            <strong>배너 디자인 작업물</strong>
+                        </div>
+                        <div class="card_btn_box">
+                            <a href="../html/portfolio_board_design.html" target="_blank" class="card_btn more_btn">More</a>
+                        </div>
+                        <div class="tag">
+                            <span>#디자인 기여도 : 100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_slide">
+                    <div class="portfolio_card">
+                        <img src="../resources/images/port_main/portfolio_05.png" alt="운명한권 메인 이미지">
+                        <div class="card_txt">
+                            <p>운명한권 사주/운세 사이트 퍼블리싱 작업</p>
+                            <strong>운명한권 사주/운세 사이트 반응형</strong>
+                        </div>
+                        <div class="card_btn_box">
+                            <a href="https://fortunebook.kr/" target="_blank" class="card_btn">Web view</a>
+                            <a href="../html/portfolio_board_fortune.html" target="_blank" class="card_btn more_btn">More</a>
+                        </div>
+                        <div class="tag">
+                            <span>#퍼블리싱 기여도 : 100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_slide">
+                    <div class="portfolio_card">
+                        <img src="../resources/images/port_main/portfolio_06.png" alt="운명한권 메인 이미지">
+                        <div class="card_txt">
+                            <p>비즈파인더 사업자 정보조회 사이트 퍼블리싱 작업</p>
+                            <strong>비즈파인더 사업자 정보조회 사이트 반응형</strong>
+                        </div>
+                        <div class="card_btn_box">
+                            <a href="https://bizfinder.kr/" target="_blank" class="card_btn">Web view</a>
+                            <a href="../html/portfolio_board_bizfinder.html" target="_blank" class="card_btn more_btn">More</a>
+                        </div>
+                        <div class="tag">
+                            <span>#퍼블리싱 기여도 : 100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_slide">
+                    <div class="portfolio_card">
+                        <img src="../resources/images/port_main/portfolio_07.png" alt="딥시크 메인 이미지">
+                        <div class="card_txt">
+                            <p>딥시크 사이트 퍼블리싱 작업</p>
+                            <strong>딥시크 사이트 반응형</strong>
+                        </div>
+                        <div class="card_btn_box">
+                            <a href="https://dipseek.kr/" target="_blank" class="card_btn">Web view</a>
+                            <a href="../html/portfolio_board_dipseek.html" target="_blank" class="card_btn more_btn">More</a>
+                        </div>
+                        <div class="tag">
+                            <span>#퍼블리싱 기여도 : 100%</span>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="portfolio_slide">
+                    <div class="portfolio_card">
+
+                    </div>
+                </div>-->
+            </div>
+            <button class="por_prev"></button>
+            <button class="por_next"></button>
+        </section>
+        <section id="project" class="project_wrap">
+            <div class="work_tit">
+                <h2>Project</h2>
+                <p>나혜린 <strong>프로젝트</strong> 입니다.</p>
+            </div>
+            <div class="pro_area">
+                <div class="pro_card">
+                    <a class="round" href="../html/pdf/semi_project.pdf" target="_blank">
+                        <img src="../resources/images/port_main/project_01.png" alt="세미프로젝트 이미지">
+                    </a>
+                    <h3>스프링부트 프레임워크 세미프로젝트</h3>
+                    <p>Web | 디자인·퍼블리싱·back-end(jsp, java, sql)</p>
+                </div>
+                <div class="pro_card">
+                    <a class="round" href="../html/pdf/final_project.pdf" target="_blank">
+                        <img src="../resources/images/port_main/project_02.png" alt="파이널프로젝트 이미지">
+                    </a>
+                    <h3>스프링부트 프레임워크 파이널프로젝트</h3>
+                    <p>Web | 디자인·퍼블리싱·back-end(jsp, java, sql)</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact_wrap">
+            <div class="contact_me">
+                <div class="con_img">
+                    <img src="../resources/images/port_main/heart.png" alt="하트 이미지">
+                </div>
+                <div class="contact_txt">
+                    <h3>신뢰할 수 있는 결과를 위해,<br/>책임감 있게 임하겠습니다.
+                    </h3>
+                    <p>contact · o3o0660@gmail.com</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright&copy2026 HyeLyn Na</p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../resources/js/slick.min.js"></script>
+    <script>
+     
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('.header_wrap');
+
+            if (window.scrollY > 0) {
+                header.classList.add('is-scroll');
+            } else {
+                header.classList.remove('is-scroll');
+            }
+        });
+        
+        //타이핑
+        $(function () {
+            const $line = $(".line");
+            const text = $line.text();
+            let i = 0;
+        
+            $line.text("");
+        
+            const typing = setInterval(function () {
+                $line.text(text.substring(0, i + 1));
+                i++;
+        
+                if (i === text.length) {
+                    clearInterval(typing);
+                    $line.addClass("show-line");
+                }
+            }, 60);
+        });
+        //메뉴 js
+        $(function () {
+            $('.menu_btn button').on('click', function () {
+                if (window.innerWidth <= 768) {
+                $(this).toggleClass('is-open');  
+                $('.h_menu').toggleClass('is-open');
+                $('body').toggleClass('menu-open');
+                }
+            });
+              
+            $('.h_menu a').on('click', function () {
+                if (window.innerWidth <= 768) {
+                $('.h_menu').removeClass('is-open');
+                $('.menu_btn button').removeClass('is-open');
+                $('body').removeClass('menu-open');
+                }
+            });
+
+        });
+        //스크롤
+        function scrollToAbout(){
+            document.getElementById('about').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+        function scrollToWork(){
+            document.getElementById('work').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+        function scrollToProject(){
+            document.getElementById('project').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+        function scrollToContact(){
+            document.getElementById('contact').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+        function scrollToSkill(){
+            document.getElementById('skill').scrollIntoView({
+                behavior:'smooth'
+            });
+        }
+        (function () {
+        const box = document.querySelector('.skill_content');
+        const items = box.querySelectorAll('ul li');
+
+        window.addEventListener('scroll', () => {
+            const rect = box.getBoundingClientRect();
+            const vh = window.innerHeight;
+
+            const progress = Math.min(
+            Math.max((vh - rect.top) / vh, 0),
+            1
+            );
+
+            const visibleCount = Math.floor(progress * items.length);
+
+            items.forEach((el, i) => {
+            el.classList.toggle('is-show', i < visibleCount);
+            });
+        }, { passive: true });
+        })();
+        //슬라이더
+        $(function () {
+            $('.portfolio_slider').slick({
+            centerMode: true,
+            centerPadding: '40em',
+            infinite: true,         
+            slidesToShow: 1,
+            dots: true,
+            arrows: true,
+            prevArrow: $('.por_prev'),
+            nextArrow: $('.por_next'),
+            autoplay: false,
+            autoplaySpeed: 4000,
+            responsive: [
+                { breakpoint: 1920, settings: { centerMode: true, centerPadding: '30em' } },
+                { breakpoint: 1500, settings: { centerMode: true, centerPadding: '280px' } },
+                { breakpoint: 1200, settings: { centerMode: true, centerPadding: '200px' } },
+                { breakpoint: 960,  settings: { centerMode: true, centerPadding: '160px' } },
+                { breakpoint: 768,  settings: { centerMode: true, centerPadding: '100px' } },
+                { breakpoint: 620,  settings: { centerMode: true, centerPadding: '60px' } },
+                { breakpoint: 480,  settings: { centerMode: true, centerPadding: '20px', slidesToShow: 1 } },
+                { breakpoint: 360,  settings: { centerMode: true, centerPadding: '0px',  slidesToShow: 1 } }
+            ]
+            });
+        });
+    </script>
+</body>
+</html>

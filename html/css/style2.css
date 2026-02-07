@@ -1,0 +1,328 @@
+@charset "UTF-8";
+
+/*header*/
+.bg_color{background-color:mediumpurple !important;}
+.bg_color2{background-color: thistle;}
+.cats{position: relative;}
+.meongi{position: absolute; left:0; bottom:-97px;}
+.meongi img{width:13rem;}
+.huchu{position: absolute; right:0; bottom:-100px;}
+.huchu img{}
+/*main*/
+.circle{width:31.5rem; height:31.5rem; border-radius: 50%; background-color: blueviolet;}
+.hyelyn{width:32.5rem;}
+
+@media(max-width:767px){
+  .meongi{bottom:13rem;}
+  .meongi img{width:10rem;}
+  .huchu{bottom:13rem;}
+  .huchu img{width:7rem;}
+}
+
+/*portfolio*/
+.hover_circle{width: 15rem;height: 15rem;border-radius: 50%;background: lightyellow;color: rosybrown;display: flex;align-items: center;justify-content: center;font-weight: 600;}
+/*.hover_circle{width: 15rem;height: 15rem;border-radius: 50%;color: #fff;text-shadow: 6px 3px 5px #858585;display: flex;align-items: center;justify-content: center;font-weight: 800;background: url(../assets/images/port_circle01.png) no-repeat;background-size: cover;align-content: center;-webkit-text-stroke-color: #ccc;font-size: 30px;}*/
+/*footer*/
+.qr{width:15rem;height:15rem;border:1px solid #ccc; padding:1rem 1rem; display: inline-flex;}
+.f_black{color:#000 !important;}
+
+/*modal*/
+.note_index{display: flex; align-items: center;}
+.post_it{}
+.post_it li{margin-bottom: 40px;display: flex;left: 0;justify-content: center;margin-left: -2rem;align-content: flex-start;}
+.post_it li a{position: relative; }
+.post_it li a span{position: absolute; top:0.5rem; left:0.2rem;color:floralwhite !important; font-weight: 800;}
+.post_it li a img{}
+.row2{align-items: flex-start !important;}
+.row_none{margin-right:0 !important; margin-left:0 !important; margin-top:0 !important;}
+
+@media(max-width:430px){
+
+  .circle{width:20.5rem !important; height:20.5rem !important;}
+  .hyelyn{width:21.5rem !important;}
+  .meongi img{width:8rem !important;}
+  .huchu img{width:6rem !important;}
+  
+  }
+@media(max-width:576px){
+
+.circle{width:25.5rem; height:25.5rem;}
+.hyelyn{width:26.5rem;}
+.post_it{display: none;}
+.post_it2{display: block !important;}
+.post_it2 li{margin-bottom: 15px;display: flex;left: 0;justify-content: center;margin-left: -2rem;align-content: flex-start;}
+.post_it2 li a{position: relative; }
+.post_it2 li a span{position: absolute; color:floralwhite !important; font-weight: 800;}
+.post_it2 li a img{}
+
+}
+@media(max-width:991px){
+  .meongi img{width:9rem;}
+  .huchu img{width:7rem;}
+
+  .post_it{}
+  .post_it li{margin-bottom: 15px;display: flex;left: 0;justify-content: center;margin-left: -2rem;align-content: flex-start; width:4rem;}
+  .post_it li a{position: relative; }
+  .post_it li a span{position: absolute; color:floralwhite !important; font-weight: 800;}
+  .post_it li a img{}
+  
+  }
+  @media(max-width:1199px){
+    .post_it{}
+    .post_it li{margin-bottom: 20px;display: flex;left: 0;justify-content: center;margin-left: -2.2rem;align-content: flex-start; width:5rem;}
+    .post_it li a{position: relative; }
+    .post_it li a span{position: absolute; color:floralwhite !important; font-weight: 800;}
+    .post_it li a img{}
+    
+    }
+/*skill*/
+/*.container {
+    padding: 50px 0;
+    text-align: center;
+  }*/
+  
+  .chart {
+    position: relative;
+    display: inline-block;
+    color: #999;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .chart figcaption {
+    padding: 50px 25px;
+    width: 12rem;
+    height: 12rem;
+    border: 20px solid #f0f0f0;
+    border-radius: 100px;
+    line-height: 50px;
+    margin-left:-14px;
+  }
+  
+  .chart img {
+    position: absolute;
+    max-width: 100px;
+    max-height: 100px;
+    background: white;
+    lefT:50;
+  }
+  /* END Container styles */
+  
+  /* Colors for the circles and positions for the graphics */
+  .html {
+    top: 50px;
+  }
+  
+  .html + svg .outer {
+    stroke: #e34f26;
+  }
+  
+  .css {
+    top: 55px;
+  }
+  
+  .css + svg .outer {
+    stroke: #0d84ce;
+  }
+  
+  .javascript {
+    max-width: 90px;
+    max-height: 90px;
+    top: 45px;
+  }
+  
+  .javascript + svg .outer {
+    stroke: #f0e040;
+  }
+  
+  .java {
+    width: 200px;
+    height: 200px;
+    top: 45px;
+  }
+  
+  .java + svg .outer {
+    stroke: red;
+  }
+
+  .jsp {
+    width: 200px;
+    height: 200px;
+    top: 45px;
+  }
+  
+  .jsp + svg .outer {
+    stroke: #000;
+  }
+
+  .oracle {
+    width: 200px;
+    height: 200px;
+    top: 45px;
+  }
+  
+  .oracle + svg .outer {
+    stroke: orange;
+  }
+
+  .springboot {
+    width: 200px;
+    height: 200px;
+    top: 45px;
+  }
+  
+  .springboot + svg .outer {
+    stroke: #83cd29;
+  }
+  .photoshop {
+    width: 200px;
+    height: 200px;
+    top: 45px;
+  }
+  
+  .photoshop + svg .outer {
+    stroke: #0d6ae4;
+  }
+  .illustrator {
+    width: 200px;
+    height: 200px;
+    top: 45px;
+  }
+  
+  .illustrator + svg .outer {
+    stroke: burlywood;
+  }
+  
+  .chart svg {
+    position: absolute;
+    top: 0;
+    left: 59;
+  }
+  
+  .outer {
+    fill: transparent;
+    stroke: #333;
+    stroke-width: 20;
+    stroke-dasharray: 534;
+    transition: stroke-dashoffset 1s;
+    -webkit-animation-play-state: running;
+    
+    /* firefox bug fix - won't rotate at 90deg angles */
+    -moz-transform: rotate(-89deg) translateX(-190px);
+  }
+  
+  .chart:hover .outer {
+    stroke-dashoffset: 534 !important;
+    -webkit-animation-play-state: paused;
+  }
+  /* END Circle colors and graphic positions */
+  
+  
+  /* Set the initial values for the animation */
+  .chart[data-percent='100'] .outer {
+    stroke-dashoffset: 0;
+    -webkit-animation: show100 15s;
+    animation: show100 15s;
+  }
+  
+  .chart[data-percent='75'] .outer {
+    stroke-dashoffset: 100;
+    -webkit-animation: show75 15s;
+    animation: show75 15s;
+  }
+  
+  .chart[data-percent='50'] .outer {
+    stroke-dashoffset: 300;
+    -webkit-animation: show50 15s;
+    animation: show50 15s;
+  }
+  
+  .chart[data-percent='25'] .outer {
+    stroke-dashoffset: 401;
+    -webkit-animation: show25 15s;
+    animation: show25 15s;
+  }
+  /* END set initial animation values */
+  
+  /* Keyframes for the initial animation */
+  @-webkit-keyframes show100 {
+    from {
+      stroke-dashoffset: 537;
+    }
+    
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes show100 {
+    from {
+      stroke-dashoffset: 537;
+    }
+    
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @-webkit-keyframes show75 {
+    from {
+      stroke-dashoffset: 537;
+    }
+    
+    to {
+      stroke-dashoffset: 100;
+    }
+  }
+  
+  @keyframes show75 {
+    from {
+      stroke-dashoffset: 537;
+    }
+    
+    to {
+      stroke-dashoffset: 100;
+    }
+  }
+  
+  @-webkit-keyframes show50 {
+    from {
+      stroke-dashoffset: 537;
+    }
+    
+    to {
+      stroke-dashoffset: 300;
+    }
+  }
+  
+  @keyframes show50 {
+    from {
+      stroke-dashoffset: 537;
+    }
+    
+    to {
+      stroke-dashoffset: 300;
+    }
+  }
+  
+  @-webkit-keyframes show25 {
+    from {
+      stroke-dashoffset: 537;
+    }
+    
+    to {
+      stroke-dashoffset: 401;
+    }
+  }
+  
+  @keyframes show25 {
+    from {
+      stroke-dashoffset: 537;
+    }
+    
+    to {
+      stroke-dashoffset: 401;
+    }
+  }

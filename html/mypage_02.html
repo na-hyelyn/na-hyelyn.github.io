@@ -1,0 +1,376 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>한국체인블록연구소</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link type="text/css" rel="stylesheet" href="css/common_01_hr.css" />
+    <link type="text/css" rel="stylesheet" href="css/contents.css" />
+    <link type="text/css" rel="stylesheet" href="css/mypage02.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script> 
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+<style>
+    .modify-info .tit{margin-top:40px;}
+    #phone{display:none;}
+   
+</style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-nav">
+            <div class="nav">
+                <h1>한국블록체인</h1>
+                <nav>
+                    <ul id="nav">
+                        <li><a href="#none" target="_self">거래소</a></li>
+                        <li><a href="#none" target="_self">차트&토론방</a></li>
+                        <li><a href="#none" target="_self">이용안내</a></li>
+                        <li><a href="#none" target="_self">고객센터</a></li>
+                        <li><a href="#none" target="_self">코인INFO</a></li>
+                        <li><a href="#none" target="_self">실전대회</a></li>
+                    </ul>
+                </nav>
+                <div class="utillMenu">
+                    <div class="utMenu"><a href="#" target="_self">리딩현황</a></div>
+                    <div class="utMenu"><a href="#" target="_self">원격지원</a></div>
+                    <div class="utMenu"><a href="#" target="_self">KOR</a></div>
+                    <!--<label class="wLabel-left"></label>
+                    <select id="language" tabindex="1">
+                        <option value="">KOR</option>
+                        <option value="KOR" data-icon="../resources/images/common/ico_lang_kor.png">KOR</option>
+                        <option value="CA" data-icon="../resources/images/common/ico_lang_us.png">ENG</option>
+                        <option value="PL" data-icon="../resources/images/common/ico_lang_jp.png">JPN</option>
+                        <option value="TH" data-icon="../resources/images/common/ico_lang_ch.png">CHI</option>
+                    </select>-->
+                    
+                </div>
+            </div>
+        </div>
+        <div class="sub-nav">
+            <div class="sub-nav-contents">
+
+                <ul class="menu3">
+                    <li><a href="#none">거래소안내</a></li>
+                    <li><a href="#none">이용안내</a></li>
+                    <li><a href="#none">HTScoin특징</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-info">
+            <div class="main-noti-txt">
+                <span class="new">NEW</span>[공지] 온라인 고객센터 오픈 안내
+                <a href="#none">더보기></a>
+            </div>
+        </div>
+    </header>
+    <!-- Contents -->
+    <section id="container">
+        <div id="content" class="fix">
+            <!-- 서브 좌측 영역 -->	
+            <div id="lnb">
+                <h2>마이페이지</h2>
+                <ul class="lnbMenu">
+                    <li><a href="#" class="active">회원정보</a></li>
+                    <li><a href="#">보안인증</a></li>
+                    <li><a href="#">접속관리</a></li>
+                </ul>
+            </div>
+            <!-- //서브 좌측 영역 -->	
+            <!-- 서브 컨텐츠 영역 -->		
+            <div id="scontent">
+                <div class="pagetit">
+                    <h3>회원정보</h3>
+                    <div class="location">
+                        <span class="home"><a href="#">HOME</a></span>
+                        <span><a href="#">마이페이지</a></span>
+                        <span class="current">회원정보</span>
+                    </div>
+                </div>
+                
+                <div class="security">
+                        <div class="top_text"><p>본인 인증이 완료 되어야 서비스 이용에 제한이 없습니다.</p></div>
+                    <div class="your">
+                        <p class="txt1"><strong>인증상태</strong></p>
+                                            
+                    </div>
+                    <div class="secu-step">
+                        <div class="secu secu1"><!-- 현재 레벨 on 클래스 -->
+                            <i></i>
+                            <p class="txt1">Lv. 0</p>
+                            <p class="txt2">회원가입</p>
+                            <p class="txt3"></p>
+                            <p class="current">현재 레벨</p>
+                        </div>
+                        <div class="secu secu2 on" class="secu secu active"><!-- 현재 상황 active 클래스 -->
+                            <i></i>
+                            <p class="txt1">Lv. 1</p>
+                            <p class="txt2">휴대폰 인증</p>
+                            <p class="txt3"></p>
+                            <p class="current">현재 레벨</p>
+                        </div>
+                        <div class="secu secu3">
+                            <i></i>
+                            <p class="txt1">Lv. 2</p>
+                            <p class="txt2">이메일 인증</p>
+                            <p class="txt3"></p>
+                            <p class="current">현재 레벨</p>
+                        </div>
+                        <div class="secu secu4">
+                            <i></i>
+                            <p class="txt1">Lv. 3</p>
+                            <p class="txt2">계좌 인증</p>
+                            <p class="txt3"></p>
+                            <p class="current">현재 레벨</p>
+                        </div>
+                        <div class="secu secu5">
+                            <i></i>
+                            <p class="txt1">Lv. 4</p>
+                            <p class="txt2">OTP 인증</p>
+                            <p class="txt3"></p>
+                            <p class="current">현재 레벨</p>
+                        </div>
+                        <div class="secu secu6">
+                            <i></i>
+                            <p class="txt1">Lv. 5</p>
+                            <p class="txt2">한도상향</p>
+                            <p class="txt3"></p>
+                            <p class="current">현재 레벨</p>
+                        </div>
+                    </div>
+                    <div class="myinfo-wrap">
+                        <table>
+                            <colgroup>
+                                <col style="width:150px">
+                                <col style="">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th></th>
+                                    <td><span class="user-level"><strong>회원정보 / 인증센터</strong></td>
+                                </tr>
+                                <tr>
+                                    <th>이름</th>
+                                    <td>
+                                        <div class="col-box">
+                                            <div class="col-left">HTS코인</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>생년월일</th>
+                                    <td>
+                                        <div class="col-box">
+                                            <div class="col-left">
+                                                <div class="col-left">1995.05.19</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>아이디</th>
+                                    <td>
+                                        <div class="col-box">
+                                            <div class="col-left">
+                                                <div class="col-left">HTScoin</div> 
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>별명</th>
+                                    <td>
+                                        <div class="col-box">
+                                            <div class="col-left">
+                                                <input type="text" placeholder="별명을 입력하세요." class="box" maxlength="6">
+                                            </div>
+                                            <div class="col-right">
+                                                <button type="button" class="btnW">등록</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>휴대폰 번호</th>
+                                    <td>
+                                        <div class="col-box">
+                                            <div class="col-left">
+                                                <!--<input type="tel" class="box" placeholder="'-'없이 기재해주세요." maxlength="11">-->
+                                                <span class="hide-text">010-1234-5678</span>
+                                                <span class="hide-text" style="display: none;">010-1234-5678</span>
+                                            
+                                            </div>
+                                            <div class="col-right">
+                                                <button type="button" class="btnW" id="r_btn"onclick="show()">수정</button>
+                                            </div>
+                                            <div class="modify-info" id="phone">
+                                                <p class="tit">새로운 휴대폰번호를 입력해 주세요.</p>
+                                                <div class="inp-box">
+                                                    <input type="text" class="inp" placeholder="새로운 휴대폰번호를 입력해 주세요.">
+                                                    <button type="button" class="btnW">인증하기</button>
+                                                </div>
+                                                <div class="inp-box">
+                                                    <input type="text" class="inp" style="width:472px" placeholder="인증번호 6자리를 입력해 주세요.">
+                                                </div>
+                                                <p class="alert-number">
+                                                    <span class="col-left">3분 이내로 인증번호 6자리를 입력하세요.</span>
+                                                    <em class="col-right">만료 시간 : 150초</em>
+                                                </p>
+                                                <div class="btn-box">
+                                                    <button type="button" class="btnR">수정하기</button>
+                                                    <button type="button" class="btnW">수정취소</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                    
+                                <script> 
+                                    $(document).ready(function () { 
+                                    $("#r_btn").on("click", function () { 
+                                            $(".modify-info").slideToggle("fast"); 
+                                    }); 
+                                    }); 
+                                    </script>
+                        
+                                <tr>
+                                    <th>이메일</th>
+                                    <td>
+                                        <div class="col-box">
+                                            <div class="col-left">
+                                                <input type="email" placeholder="email@email.com" class="box">
+                                            </div>
+                                            <div class="col-right">
+                                                <button type="button" class="btnW">등록</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>본인계좌</th>
+                                    <td>
+                                        <div class="col-box">
+                                            <div class="col-left">
+                                                <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+                                                <script type="text/javascript">
+                                                    $(document).ready(function(){
+                                                        var select = $('.select-script select');
+                                                    select.change(function(){
+                                                        var select_name = $(this).children('option:selected').text();
+                                                    $(this).siblings("label").text(select_name);
+                                                        });
+
+                                                    });
+                                                </script>
+                                                <select name="은행선택" class="select-script">
+                                                    <option value="은행선택">은행선택</option>
+                                                    <option value="신협">신협</option>
+                                                    <option value="산업">산업</option>
+                                                    <option value="기업">기업</option>
+                                                    <option value="국민">국민</option>
+                                                    <option value="수협">수협</option>
+                                                    <option value="수출입">수출입</option>
+                                                    <option value="농협">농협</option>
+                                                    <option value="단위농협">단위농협</option>
+                                                    <option value="sc제일">sc제일</option>
+                                                    <option value="우리">우리</option>
+                                                    <option value="신한">신한</option>
+                                                    <option value="한국씨티은행">한국씨티은행</option>
+                                                    <option value="대구">대구</option>
+                                                    <option value="부산">부산</option>
+                                                    <option value="광주">광주</option>
+                                                    <option value="제주">제주</option>
+                                                    <option value="전북">전북</option>
+                                                    <option value="경남">경남</option>
+                                                    <option value="새마을금고">새마을금고</option>
+                                                    <option value="상호저축은행">상호저축은행</option>
+                                                    <option value="B.O.A">B.O.A</option>
+                                                    <option value="하나">하나</option>
+                                                    <option value="HSBC">HSBC</option>
+                                                    <option value="도이치은행">도이치은행</option>
+                                                    <option value="에이비엔암로은행">에이비엔암로은행</option>
+                                                    <option value="우체국">우체국</option>
+                                                    <option value="카카오뱅크">카카오뱅크</option>
+                                                    <option value="케이뱅크">케이뱅크</option>
+                                            </select>
+                                            </div>
+                                            <div>
+                                                <input type="text" id="box2" placeholder="계좌번호를 입력해주세요.">
+                                            </div>
+                                            <div class="col-right">
+                                                <button type="button"  id="btn">등록</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="col-right-tbox">
+                        <p>KRW입출금을 위한 계좌 인증 입니다.
+                                <br><br>
+                                *현재 신한은행 계좌만 입금이 가능합니다.
+                        </p>
+                        </div>
+                        <div class="col-right-tbox">
+                            <h3>OTP 인증</h3>
+                            <br>
+                            <P>
+                                입출금시 휴대폰 인증 번호 대신 OTP 인증번호를 사용합니다.
+                                <br><br>
+                                OTP를 사용하면 가상화폐 출금한도가 상향됩니다.
+                            </P>
+                        </div>
+                        <button id="otp-btn" type="button">OTP사용하기</button>
+                    </div>
+                
+                    <div class="text-center">
+                        <span class="lost-btn">
+                            <a href="#">회원탈퇴 방법</a>
+                        </span>
+                        <button type="button" class="none-radius" style="width:225px">로그인 비밀번호 변경</button>
+                    </div>
+                    <div class="text-center2">
+                            <button type="button" class="none-radius" style="width:225px">거래 비밀번호 변경</button>
+                        </div>
+                    
+                
+            <!-- //서브 컨텐츠 영역 -->	
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-contents">
+            <h2>HTS Coin</h2>
+            <div class="footer-info">
+                <ul>
+                    <li><a href="#none">회사소개</a></li>
+                    <li><a href="#none">이용약관</a></li>
+                    <li><a href="#none">개인정보취급방침</a></li>
+                    <li><a href="#none">PC HTS 다운로드</a></li>
+                    <li><a href="#none">모바일 APP 다운로드</a></li>
+                    <li><a href="#none">제휴문의</a></li>
+                    <li><a href="#none">채용문의</a></li>
+                </ul>
+                <address>상호: (주)한국블록체인거래소| 대표: 신동화| 주소: 서울특별시 강남구 테헤란로 238, 15층(역삼동)| TEL: 1566-0778</address>
+                <p>사업자 등록번호: 137-86-53346| 통신판매 신고번호: 제2017-서울강남-03899호| EMAIL: info@htscoin.com</p>
+                <p>Copyright(c) 한국블록체인거래소. All Rights Reserved. 121</p>
+            </div>
+
+            <div class="foot-etc">
+                <ul class="sns">
+                    <li><a href="#none"><img src="assets/images/etc/naver.png" /></a></li>
+                    <li><a href="#none"><img src="assets/images/etc/facebook.png" /></a></li>
+                    <li><a href="#none"><img src="assets/images/etc/twitter.png" /></a></li>
+                </ul>
+                <div class="qr-code">
+                    <img src="assets/images/etc/qr_code.png" />
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.security .secu-step .secu { float:left; width:130px; height: 161px; background: url(../assets/images/bg/bg_secu_step_off.png) no-repeat 50% 50%; position: relative; text-align: center; margin-left: 15px; margin-bottom:70px;}
+.security .secu-step .secu:first-child { margin-left: 0;}
+.security .secu-step .secu i { display: block; height:120px; background: url(../assets/images/icon/icon_off00.png) no-repeat 50% 60%; opacity:0.5;}
+.security .secu-step .secu .txt1 { font-size:16px; font-weight: 600; color: #7f899d; margin-top:-15px; }
+.security .secu-step .secu .txt2 { font-size:14px; color: #222; padding:10px 0; font-weight: 600;}
+.security .secu-step .secu .txt3 { font-size:14px; line-height: 20px; color: #8a92a5; }
+.security .secu-step .secu .current { display: none;display: none;position: absolute; left: 50%; top:-13px; margin-left: -45px; width:90px; height: 27px; line-height: 26px; border: 1px solid #445482; border-radius:27px; text-align: center; font-size:13px; color: #445482; background: #fff; font-weight: 600;}
+.security .secu-step .secu.secu2 i { background:url(../assets/images/icon/icon_off01.png) no-repeat 50% 60%;}
+.security .secu-step .secu.secu3 i { background:url(../assets/images/icon/icon_on02.png) no-repeat 50% 60%;}
+.security .secu-step .secu.secu4 i { background:url(../assets/images/icon/icon_off03.png) no-repeat 50% 55%;}
+.security .secu-step .secu.secu5 i { background:url(../assets/images/icon/icon_off04.png) no-repeat 50% 55%;}
+.security .secu-step .secu.secu6 i { background:url(../assets/images/icon/icon_off05.png) no-repeat 50% 55%;}
+
+.security .secu-step .secu.on i { opacity:1;}
+.security .secu-step .secu.on .current { display: block; }
+.security .secu-step .secu.on .txt1 { color: #ff4848; }
+.security .secu-step .secu.active { background-image:url(../assets/images/bg/bg_secu_step_on.png); }
+.security .secu-step .secu.active .txt1{ color: #ff4848 !important;}
+
+
+.security .secu-step .secu.secu1.active i { background:url(../assets/images/icon/icon_off00.png) no-repeat 50% 60%; opacity:1; }
+.security .secu-step .secu.secu2.active i { background:url(../assets/images/icon/icon_on01.png) no-repeat 50% 60%; opacity:1; }
+.security .secu-step .secu.secu3.active i { background:url(../assets/images/icon/icon_off02.png) no-repeat 50% 60%; opacity:1; }
+.security .secu-step .secu.secu4.active i { background:url(../assets/images/icon/icon_off03.png) no-repeat 50% 55%; opacity:1; }
+.security .secu-step .secu.secu5.active i { background:url(../assets/images/icon/icon_off04.png) no-repeat 50% 55%; opacity:1; }
+.security .secu-step .secu.secu6.active i { background:url(../assets/images/icon/icon_off05.png) no-repeat 50% 55%; opacity:1; }
