@@ -14,8 +14,7 @@
 - jQuery
 - Slick Slider
 
----
-
+```text
 ## 📁 Project Structure
 html/
  ├ assets/
@@ -24,19 +23,18 @@ html/
  ├ plugin/
  ├ pdf/
  ├ index.html
- ├ portfolio_board_*.html
- └ ...
+ └ portfolio_board_*.html
 
 resources/
  ├ css/
  ├ js/
  └ images/
+```text
 
 - 페이지 단위 HTML과 일부 리소스를 `html/` 디렉토리에서 관리
 - 공용 스타일 및 스크립트는 `resources/`로 분리하여 관리
 - 플러그인 및 기능별 스크립트는 구조에 맞게 디렉토리 분리
 
----
 
 ## ✨ Features
 - 반응형 웹 (Desktop / Tablet / Mobile)
@@ -44,7 +42,7 @@ resources/
 - Slick Slider를 활용한 포트폴리오 슬라이드
 - 스크롤 기반 인터랙션 UI
 
----
+
 
 ## 📌 Notes
 - GitHub Pages를 통해 정적 사이트로 배포
