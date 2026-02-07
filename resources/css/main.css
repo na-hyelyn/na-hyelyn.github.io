@@ -95,7 +95,7 @@ header{width:100%; position:fixed;z-index: 4;}
 .h_menu li a{width:100%; display: block; color:#fff;}
 
 /*main*/
-.main_wrap{background-image: url('../images/port_main/main_back05.jpg');background-repeat: no-repeat; width:100%; height:auto; display: flex; align-items: center; justify-content: center; background-position: center top; background-size:100%;position:relative; overflow: hidden; background-attachment: fixed;z-index: 3;    aspect-ratio: 19 / 10;}
+.main_wrap{background-image: url('../images/port_main/main_back.jpg');background-repeat: no-repeat; width:100%; height:auto; display: flex; align-items: center; justify-content: center; background-position: center top; background-size:100%;position:relative; overflow: hidden; background-attachment: fixed;z-index: 3;    aspect-ratio: 19 / 10;}
 .intro_txt{text-align:center;}
 .intro_txt .line{color:#fff; font-size:2.75em; font-weight:500;height:4.0em; line-height: 140%; margin-bottom:20px; white-space: pre-line; position: relative;}
 .intro_txt .line::after{position: absolute; bottom:-20px; left:0; width:100%; content:""; display: block; height:1px; background-color: #fff; opacity: 0; transition: opacity 0.8s ease;}
