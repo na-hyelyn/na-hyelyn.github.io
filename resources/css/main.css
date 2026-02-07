@@ -1,4 +1,3 @@
-
 @charset "utf-8";
 @font-face{
     font-family: "pretendard";
@@ -157,42 +156,11 @@ header{width:100%; position:fixed;z-index: 4;}
 .history_box{margin-top:50px;}
 .history_box h3{font-size:28px; font-weight:600;}
 .timeline{position:relative; padding-left:28px;margin-top:20px;}
-.timeline::before{
-  content:"";
-  position:absolute;
-  left:6px;
-  top:0;
-  width:1px;
-  height:100%;
-  background:#ddd;
-}
-
-.timeline li{
-  position:relative;
-  margin-bottom:20px;
-  display: flex;align-items: center;
-}
-
-.timeline .dot{
-  position:absolute;
-  left:-26px;
-  top:6px;
-  width:10px;
-  height:10px;
-  border-radius:50%;
-  background:#b19cd7;
-}
-
-.timeline .date{
-  display:block;
-  font-size:16px;
-  color:#777;
-}
-
-.timeline p{
-  margin:0;
-  font-size:18px;
-}
+.timeline::before{content:"";position:absolute;left:6px;top:0;width:1px;height:100%;background:#ddd;}
+.timeline li{position:relative;margin-bottom:20px;display: flex;align-items: center;}
+.timeline .dot{position:absolute;left:-26px;top:6px;width:10px;height:10px;border-radius:50%;background:#b19cd7;}
+.timeline .date{display:block;font-size:16px;color:#777;}
+.timeline p{margin:0;font-size:18px;}
 .skill{ display: flex;overflow: hidden;user-select: none;gap: var(--gap);
     mask-image: linear-gradient(
             var(--mask-direction, to right),
@@ -230,18 +198,10 @@ header{width:100%; position:fixed;z-index: 4;}
   }
 }
 
-
-/* 기존 텍스트/이미지는 채움 레이어 위로 */
 .skill_content > *{ position: relative; z-index: 1; }
-
 .skill_content ul{}
-.skill_content ul li{font-size: 20px; color:#fff; white-space: pre-line;margin-left:30px;margin-bottom:30px; opacity: 0;
-  transform: translateY(20px);
-  transition: opacity .8s ease, transform .8s ease;}
-  .skill_content ul li.is-show{
-  opacity: 1;
-  transform: translateY(0);
-}
+.skill_content ul li{font-size: 20px; color:#fff; white-space: pre-line;margin-left:30px;margin-bottom:30px; opacity: 0;transform: translateY(20px);transition: opacity .8s ease, transform .8s ease;}
+.skill_content ul li.is-show{opacity: 1;transform: translateY(0);}
 .skill_content ul .s_tit_ico{font-size:25px; font-weight:600; color:#fff;display: flex; align-items: center; gap:15px; margin-left:0; margin-bottom:15px;}
 .skill_content ul .s_tit_ico::before{background: url('../images/icon/ico_check_white.svg'); background-repeat:no-repeat;content:""; display: block; width:20px; height:20px;background-size: 100%;}
 /*work*/
@@ -321,19 +281,7 @@ header{width:100%; position:fixed;z-index: 4;}
 .contact_wrap{background: #fff;}
 .contact_me{max-width: 1400px; width:100%; margin: 0 auto; padding:160px 0; display: flex; align-items: center; justify-content: center;}
 .contact_me .con_img{width:100%; max-width:500px; display: inline-block;position: relative;}
-.con_img::after{
-  content:"";
-  position:absolute;
-  left:50%;
-  bottom:-18px;                 /* 하트 아래 위치 */
-  transform: translateX(-50%);
-  width: 60%;
-  height: 16px;
-  background: rgba(0,0,0,0.25);
-  filter: blur(12px);
-  border-radius: 50%;
-  z-index: 1;                  /* 하트 뒤 */
-}
+.con_img::after{content:"";position:absolute;left:50%;bottom:-18px;transform: translateX(-50%);width: 60%;height: 16px;background: rgba(0,0,0,0.25);filter: blur(12px);border-radius: 50%;z-index: 1;}
 .contact_me .con_img img{width:100%; transform-style:preserve-3d; animation: pendantRotate 4.5s ease-in-out infinite;}
 .contact_txt{}
 .contact_txt h3{font-size:40px; margin-bottom:20px; line-height: 1.35; padding-left:5.2em; text-indent:-5.2em;font-family: "Cafe24Gowoonbam";}
