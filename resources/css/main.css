@@ -380,9 +380,9 @@ footer p{width:100%; text-align: right; color:#fff;padding-right:40px;}
 
     .main_wrap{background-size: cover;height:100vh;}
     .intro_txt .line{font-size:27px; height:unset;}
-    .scroll_down{width:42px !important; height:42px !important;}
-    .scroll_down::before{width:21px!important; height:36px !important;}
-    .scroll_down::after{width:6px !important; height:15px !important;}
+    .scroll_down{height:42px !important;}
+    .scroll_down::before{width:22px!important; height:36px !important;}
+    .scroll_down::after{width:7px !important; height:15px !important;}
     .intro_area,.intro_box{width:100%;}
     .card_btn{width:100%;}
     .card_btn:first-child{margin-bottom:10px;}
