@@ -235,7 +235,8 @@ header{width:100%; position:fixed;z-index: 4;}
 /*포트폴리오 보드*/
 .p_wrap{padding:0 20px;}
 .p_wrap header{position: unset; display: flex; justify-content: space-between; align-items: center; padding:10px 0;}
-.p_wrap header h1{font-size:28px; font-weight: 600;}
+.p_wrap header .logo_txt{font-size:28px; font-weight: 600;}
+.p_wrap header .logo_txt{text-decoration: none !important;}
 .p_wrap header a:hover{text-decoration: underline;}
 
 .p_board{width:100%; max-width: 1000px; margin: 0 auto;}
@@ -271,13 +272,13 @@ header{width:100%; position:fixed;z-index: 4;}
 .resume ul li.mail::before{content:""; display: block; background: url('../images/icon/email.png'); background-repeat: no-repeat; background-size: 100%; width:30px; height:30px; position: absolute;top:-3;left:0;}
 .resume ul li a{text-decoration: underline;color:#7c7a7a;}
 .resume ul li a:hover{color:#000;}
-.resume_cont p{white-space: pre-line; font-size: 18px;}
+.resume_cont p{white-space: pre-line; font-size: 18px; line-height: 23px;}
 .resume_cont .history_box .timeline li{display: flex; flex-direction: column; align-items: baseline;}
 .resume_cont .history_box .timeline li div{display:flex;}
 .resume_cont .date{color:#000;}
 
 .sub_txt{color:#7c7a7a;}
-.skill_table{margin-bottom:80px;}
+.skill_table{margin-bottom:80px; margin-top:50px;}
 .skill_table thead tr{border-bottom:1px solid #e6e7e8;}
 .skill_table thead tr th{padding:20px 0; background: #d2c6e7; color:#fff; letter-spacing: -0.5px;}
 .skill_table thead tr th:first-child{border-right:1px solid #e6e7e8;;}
@@ -285,6 +286,17 @@ header{width:100%; position:fixed;z-index: 4;}
 .skill_table tbody tr td{padding:20px 0; letter-spacing: -0.5px;}
 .skill_table tbody tr td:first-child{border-right:1px solid #e6e7e8; font-weight: 600;}
 .skill_table tbody tr td:last-child{padding-left:20px;}
+
+/*career*/
+.detail_btn{display: inline-block;background: #b19cd7;padding:5px 7px; color:#fff; border-radius: 15px; margin-top:5px;}
+.detail_btn:hover{transform: translateX(5px); text-decoration: underline;color:#fff;}
+.border_none{border-bottom:none !important;}
+.boder_bottom{border-bottom:1px solid #e6e7e8;padding-bottom:40px;}
+.thumbnail{max-width:500px; display: block;}
+.thumbnail div{border:1px solid #e6e7e8; border-radius: 20px; overflow: hidden;}
+.thumbnail:hover{transform: translateX(5px);}
+.thumbnail img{width:100%;}
+.thumbnail p{margin:10px 0 30px; text-decoration: underline;}
 /*project*/
 #project{padding:160px 100px;}
 .project_wrap{background: #fff; width:100%;border-bottom:2px solid #9b74cd38;}
@@ -392,6 +404,8 @@ footer p{width:100%; text-align: right; color:#fff;padding-right:40px;}
     .resume{gap:10px;}
     .resume_cont p{font-size:14px;}
     .resume_cont .edu_box ul li{font-size:14px;}
+    .resume ul{gap:19px;}
+    .skill_table tbody tr td:last-child{padding-left:10px;}
     
 }
 
@@ -403,5 +417,6 @@ footer p{width:100%; text-align: right; color:#fff;padding-right:40px;}
     .skill_group img{height:50px;}
     .skill_content ul li{font-size:16px;}
     .skill_content ul .s_tit_ico{font-size:20px;}
-    
+    .resume ul li{font-size:14px;}
+    .p_board .pb_tit h1{font-size:20px;}
 }
