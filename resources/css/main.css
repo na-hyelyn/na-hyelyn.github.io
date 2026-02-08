@@ -419,4 +419,5 @@ footer p{width:100%; text-align: right; color:#fff;padding-right:40px;}
     .skill_content ul .s_tit_ico{font-size:20px;}
     .resume ul li{font-size:14px;}
     .p_board .pb_tit h1{font-size:20px;}
+    .pb_cont .percent{display: inline-flex; flex-direction: column;gap:10px;}
 }
